@@ -1,0 +1,1459 @@
+{
+  "audioDuration" : 13.99475,
+  "decodeTraces" : [
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced",
+      "track" : "remote",
+      "windowEnd" : 1.2000000000000002,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.91,
+        0.99,
+        0.99,
+        0.61
+      ],
+      "words" : [
+        {
+          "end" : 0.14000000059604645,
+          "start" : 0.019999999552965164,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0.2800000011920929,
+          "start" : 0.14000000059604645,
+          "text" : " not"
+        },
+        {
+          "end" : 0.8199999928474426,
+          "start" : 0.2800000011920929,
+          "text" : " entirely"
+        },
+        {
+          "end" : 1.5,
+          "start" : 0.8199999928474426,
+          "text" : " convinced"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "zh",
+      "promptTokenCount" : 0,
+      "text" : "目前还不能",
+      "track" : "microphone",
+      "windowEnd" : 1.2000000000000002,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.63,
+        0.97,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : "目前"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.20000000298023224,
+          "text" : "还"
+        },
+        {
+          "end" : 0.8600000143051147,
+          "start" : 0.6200000047683716,
+          "text" : "不能"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced that the imaging chain",
+      "track" : "remote",
+      "windowEnd" : 2.4,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.92,
+        1,
+        1,
+        0.99,
+        0.98,
+        0.99,
+        0.95,
+        0.66
+      ],
+      "words" : [
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0.019999999552965164,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0.3400000035762787,
+          "start" : 0.18000000715255737,
+          "text" : " not"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.3400000035762787,
+          "text" : " entirely"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.5799999833106995,
+          "text" : " convinced"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.3799999952316284,
+          "text" : " that"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.6200000047683716,
+          "text" : " the"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.7200000286102295,
+          "text" : " imaging"
+        },
+        {
+          "end" : 2.4000000953674316,
+          "start" : 2.0199999809265137,
+          "text" : " chain"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "zh",
+      "promptTokenCount" : 0,
+      "text" : "目前还不能把影像变化直接解释为不可逆的肌肉坏",
+      "track" : "microphone",
+      "windowEnd" : 4.8,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.98,
+        0.91,
+        1,
+        0.99,
+        0.98,
+        0.99,
+        0.99,
+        1,
+        0.79,
+        0.99,
+        1,
+        0.98,
+        0.86,
+        1,
+        0.99,
+        0.99,
+        0.95,
+        1,
+        0.64
+      ],
+      "words" : [
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : "目前"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.20000000298023224,
+          "text" : "还"
+        },
+        {
+          "end" : 0.8600000143051147,
+          "start" : 0.5799999833106995,
+          "text" : "不能"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.8600000143051147,
+          "text" : "把"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.159999966621399,
+          "text" : "影"
+        },
+        {
+          "end" : 1.6799999475479126,
+          "start" : 1.3799999952316284,
+          "text" : "像"
+        },
+        {
+          "end" : 1.9800000190734863,
+          "start" : 1.6799999475479126,
+          "text" : "变"
+        },
+        {
+          "end" : 2.2200000286102295,
+          "start" : 1.9800000190734863,
+          "text" : "化"
+        },
+        {
+          "end" : 2.5199999809265137,
+          "start" : 2.2200000286102295,
+          "text" : "直接"
+        },
+        {
+          "end" : 2.819999933242798,
+          "start" : 2.5199999809265137,
+          "text" : "解"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.819999933242798,
+          "text" : "释"
+        },
+        {
+          "end" : 3.2799999713897705,
+          "start" : 3.0999999046325684,
+          "text" : "为"
+        },
+        {
+          "end" : 3.5,
+          "start" : 3.2799999713897705,
+          "text" : "不"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.5,
+          "text" : "可"
+        },
+        {
+          "end" : 3.9600000381469727,
+          "start" : 3.880000114440918,
+          "text" : "逆"
+        },
+        {
+          "end" : 4.079999923706055,
+          "start" : 3.9600000381469727,
+          "text" : "的"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4.079999923706055,
+          "text" : "肌"
+        },
+        {
+          "end" : 4.460000038146973,
+          "start" : 4.360000133514404,
+          "text" : "肉"
+        },
+        {
+          "end" : 4.71999979019165,
+          "start" : 4.460000038146973,
+          "text" : "坏"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going?",
+      "track" : "remote",
+      "windowEnd" : 7.199999999999999,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.91,
+        1,
+        1,
+        0.98,
+        0.97,
+        0.99,
+        0.95,
+        0.98,
+        0.92,
+        0.9,
+        0.5,
+        0.66,
+        0.95,
+        0.99,
+        0.99,
+        1,
+        0.63,
+        0.97,
+        1,
+        0.98
+      ],
+      "words" : [
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0.019999999552965164,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0.3400000035762787,
+          "start" : 0.18000000715255737,
+          "text" : " not"
+        },
+        {
+          "end" : 0.8199999928474426,
+          "start" : 0.3400000035762787,
+          "text" : " entirely"
+        },
+        {
+          "end" : 1.2000000476837158,
+          "start" : 0.8199999928474426,
+          "text" : " convinced"
+        },
+        {
+          "end" : 1.600000023841858,
+          "start" : 1.2000000476837158,
+          "text" : " that"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.600000023841858,
+          "text" : " the"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.7200000286102295,
+          "text" : " imaging"
+        },
+        {
+          "end" : 2.5199999809265137,
+          "start" : 2.0199999809265137,
+          "text" : " changes"
+        },
+        {
+          "end" : 2.9800000190734863,
+          "start" : 2.5199999809265137,
+          "text" : " you're"
+        },
+        {
+          "end" : 3.200000047683716,
+          "start" : 2.9800000190734863,
+          "text" : " seeing"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.200000047683716,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 4.400000095367432,
+          "start" : 3.880000114440918,
+          "text" : " represent"
+        },
+        {
+          "end" : 4.699999809265137,
+          "start" : 4.539999961853027,
+          "text" : " a"
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.699999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 5.5,
+          "start" : 5.019999980926514,
+          "text" : " muscle"
+        },
+        {
+          "end" : 5.960000038146973,
+          "start" : 5.5,
+          "text" : " injury."
+        },
+        {
+          "end" : 6.480000019073486,
+          "start" : 6.320000171661377,
+          "text" : " How"
+        },
+        {
+          "end" : 6.739999771118164,
+          "start" : 6.480000019073486,
+          "text" : " are"
+        },
+        {
+          "end" : 6.860000133514404,
+          "start" : 6.739999771118164,
+          "text" : " you"
+        },
+        {
+          "end" : 7.099999904632568,
+          "start" : 6.860000133514404,
+          "text" : " going?"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "zh",
+      "promptTokenCount" : 0,
+      "text" : "目前还不能把影像变化直接解释为不可逆的肌肉坏死,我们需要结合组织病理学,区分科学,",
+      "track" : "microphone",
+      "windowEnd" : 8.4,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.87,
+        0.88,
+        1,
+        0.99,
+        0.98,
+        0.99,
+        0.99,
+        1,
+        0.73,
+        0.98,
+        1,
+        0.95,
+        0.77,
+        1,
+        0.99,
+        0.99,
+        0.97,
+        1,
+        0.95,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.88,
+        0.95,
+        1,
+        0.74,
+        1,
+        0.64,
+        0.25
+      ],
+      "words" : [
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : "目前"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.20000000298023224,
+          "text" : "还"
+        },
+        {
+          "end" : 0.8600000143051147,
+          "start" : 0.5799999833106995,
+          "text" : "不能"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.8600000143051147,
+          "text" : "把"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.159999966621399,
+          "text" : "影"
+        },
+        {
+          "end" : 1.6799999475479126,
+          "start" : 1.3799999952316284,
+          "text" : "像"
+        },
+        {
+          "end" : 2,
+          "start" : 1.6799999475479126,
+          "text" : "变"
+        },
+        {
+          "end" : 2.200000047683716,
+          "start" : 2,
+          "text" : "化"
+        },
+        {
+          "end" : 2.5199999809265137,
+          "start" : 2.200000047683716,
+          "text" : "直接"
+        },
+        {
+          "end" : 2.819999933242798,
+          "start" : 2.5199999809265137,
+          "text" : "解"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.819999933242798,
+          "text" : "释"
+        },
+        {
+          "end" : 3.2799999713897705,
+          "start" : 3.0999999046325684,
+          "text" : "为"
+        },
+        {
+          "end" : 3.5,
+          "start" : 3.2799999713897705,
+          "text" : "不"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.5,
+          "text" : "可"
+        },
+        {
+          "end" : 3.9600000381469727,
+          "start" : 3.880000114440918,
+          "text" : "逆"
+        },
+        {
+          "end" : 4.079999923706055,
+          "start" : 3.9600000381469727,
+          "text" : "的"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4.079999923706055,
+          "text" : "肌"
+        },
+        {
+          "end" : 4.460000038146973,
+          "start" : 4.360000133514404,
+          "text" : "肉"
+        },
+        {
+          "end" : 4.71999979019165,
+          "start" : 4.460000038146973,
+          "text" : "坏"
+        },
+        {
+          "end" : 4.940000057220459,
+          "start" : 4.71999979019165,
+          "text" : "死,"
+        },
+        {
+          "end" : 5.460000038146973,
+          "start" : 5.380000114440918,
+          "text" : "我们"
+        },
+        {
+          "end" : 5.820000171661377,
+          "start" : 5.460000038146973,
+          "text" : "需要"
+        },
+        {
+          "end" : 6.119999885559082,
+          "start" : 5.820000171661377,
+          "text" : "结"
+        },
+        {
+          "end" : 6.360000133514404,
+          "start" : 6.119999885559082,
+          "text" : "合"
+        },
+        {
+          "end" : 6.659999847412109,
+          "start" : 6.360000133514404,
+          "text" : "组"
+        },
+        {
+          "end" : 6.800000190734863,
+          "start" : 6.659999847412109,
+          "text" : "织"
+        },
+        {
+          "end" : 6.960000038146973,
+          "start" : 6.800000190734863,
+          "text" : "病"
+        },
+        {
+          "end" : 7.179999828338623,
+          "start" : 6.960000038146973,
+          "text" : "理"
+        },
+        {
+          "end" : 7.5,
+          "start" : 7.179999828338623,
+          "text" : "学,"
+        },
+        {
+          "end" : 8.0600004196167,
+          "start" : 7.679999828338623,
+          "text" : "区"
+        },
+        {
+          "end" : 8.260000228881836,
+          "start" : 8.0600004196167,
+          "text" : "分"
+        },
+        {
+          "end" : 8.399999618530273,
+          "start" : 8.260000228881836,
+          "text" : "科"
+        },
+        {
+          "end" : 8.699999809265137,
+          "start" : 8.399999618530273,
+          "text" : "学,"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote",
+      "windowEnd" : 10.799999999999999,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.97,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        0.99,
+        0.99,
+        0.96,
+        0.99,
+        0.85,
+        0.94,
+        1,
+        0.99,
+        1,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.98,
+        0.99,
+        1,
+        1,
+        0.99,
+        0.94
+      ],
+      "words" : [
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0.019999999552965164,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0.3799999952316284,
+          "start" : 0.18000000715255737,
+          "text" : " not"
+        },
+        {
+          "end" : 0.8199999928474426,
+          "start" : 0.3799999952316284,
+          "text" : " entirely"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.8199999928474426,
+          "text" : " convinced"
+        },
+        {
+          "end" : 1.600000023841858,
+          "start" : 1.3799999952316284,
+          "text" : " that"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.600000023841858,
+          "text" : " the"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.7200000286102295,
+          "text" : " imaging"
+        },
+        {
+          "end" : 2.5199999809265137,
+          "start" : 2.0199999809265137,
+          "text" : " changes"
+        },
+        {
+          "end" : 2.9800000190734863,
+          "start" : 2.5199999809265137,
+          "text" : " you're"
+        },
+        {
+          "end" : 3.200000047683716,
+          "start" : 2.9800000190734863,
+          "text" : " seeing"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.200000047683716,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 4.400000095367432,
+          "start" : 3.880000114440918,
+          "text" : " represent"
+        },
+        {
+          "end" : 4.699999809265137,
+          "start" : 4.480000019073486,
+          "text" : " a"
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.699999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 5.5,
+          "start" : 5.019999980926514,
+          "text" : " muscle"
+        },
+        {
+          "end" : 5.940000057220459,
+          "start" : 5.5,
+          "text" : " injury."
+        },
+        {
+          "end" : 6.619999885559082,
+          "start" : 6.440000057220459,
+          "text" : " How"
+        },
+        {
+          "end" : 6.739999771118164,
+          "start" : 6.619999885559082,
+          "text" : " are"
+        },
+        {
+          "end" : 6.860000133514404,
+          "start" : 6.739999771118164,
+          "text" : " you"
+        },
+        {
+          "end" : 7.099999904632568,
+          "start" : 6.860000133514404,
+          "text" : " going"
+        },
+        {
+          "end" : 7.28000020980835,
+          "start" : 7.099999904632568,
+          "text" : " to"
+        },
+        {
+          "end" : 7.739999771118164,
+          "start" : 7.28000020980835,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 8.420000076293945,
+          "start" : 7.739999771118164,
+          "text" : " reversible"
+        },
+        {
+          "end" : 9,
+          "start" : 8.420000076293945,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 9.5,
+          "start" : 9,
+          "text" : " changes"
+        },
+        {
+          "end" : 9.819999694824219,
+          "start" : 9.5,
+          "text" : " from"
+        },
+        {
+          "end" : 10.140000343322754,
+          "start" : 9.819999694824219,
+          "text" : " actual"
+        },
+        {
+          "end" : 10.800000190734863,
+          "start" : 10.140000343322754,
+          "text" : " necrosis?"
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "zh",
+      "promptTokenCount" : 0,
+      "text" : "目前还不能把影像变化直接解释为不可逆的肌肉坏死我们需要结合组织病理学区分可逆性缺血与坏死请问您建议在哪里",
+      "track" : "microphone",
+      "windowEnd" : 12,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.91,
+        0.9,
+        1,
+        0.99,
+        0.98,
+        0.99,
+        0.99,
+        1,
+        0.64,
+        0.99,
+        1,
+        0.92,
+        0.76,
+        1,
+        1,
+        0.99,
+        0.98,
+        1,
+        0.96,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.94,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        0.71,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.96,
+        0.55
+      ],
+      "words" : [
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : "目前"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.20000000298023224,
+          "text" : "还"
+        },
+        {
+          "end" : 0.8600000143051147,
+          "start" : 0.5799999833106995,
+          "text" : "不能"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.8600000143051147,
+          "text" : "把"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.159999966621399,
+          "text" : "影"
+        },
+        {
+          "end" : 1.6799999475479126,
+          "start" : 1.3799999952316284,
+          "text" : "像"
+        },
+        {
+          "end" : 2,
+          "start" : 1.6799999475479126,
+          "text" : "变"
+        },
+        {
+          "end" : 2.200000047683716,
+          "start" : 2,
+          "text" : "化"
+        },
+        {
+          "end" : 2.5199999809265137,
+          "start" : 2.200000047683716,
+          "text" : "直接"
+        },
+        {
+          "end" : 2.819999933242798,
+          "start" : 2.5199999809265137,
+          "text" : "解"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.819999933242798,
+          "text" : "释"
+        },
+        {
+          "end" : 3.2799999713897705,
+          "start" : 3.0999999046325684,
+          "text" : "为"
+        },
+        {
+          "end" : 3.5,
+          "start" : 3.2799999713897705,
+          "text" : "不"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.5,
+          "text" : "可"
+        },
+        {
+          "end" : 3.9600000381469727,
+          "start" : 3.880000114440918,
+          "text" : "逆"
+        },
+        {
+          "end" : 4.079999923706055,
+          "start" : 3.9600000381469727,
+          "text" : "的"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4.079999923706055,
+          "text" : "肌"
+        },
+        {
+          "end" : 4.460000038146973,
+          "start" : 4.360000133514404,
+          "text" : "肉"
+        },
+        {
+          "end" : 4.71999979019165,
+          "start" : 4.460000038146973,
+          "text" : "坏"
+        },
+        {
+          "end" : 4.980000019073486,
+          "start" : 4.71999979019165,
+          "text" : "死"
+        },
+        {
+          "end" : 5.460000038146973,
+          "start" : 5.28000020980835,
+          "text" : "我们"
+        },
+        {
+          "end" : 5.820000171661377,
+          "start" : 5.460000038146973,
+          "text" : "需要"
+        },
+        {
+          "end" : 6.119999885559082,
+          "start" : 5.820000171661377,
+          "text" : "结"
+        },
+        {
+          "end" : 6.360000133514404,
+          "start" : 6.119999885559082,
+          "text" : "合"
+        },
+        {
+          "end" : 6.659999847412109,
+          "start" : 6.360000133514404,
+          "text" : "组"
+        },
+        {
+          "end" : 6.800000190734863,
+          "start" : 6.659999847412109,
+          "text" : "织"
+        },
+        {
+          "end" : 6.960000038146973,
+          "start" : 6.800000190734863,
+          "text" : "病"
+        },
+        {
+          "end" : 7.179999828338623,
+          "start" : 6.960000038146973,
+          "text" : "理"
+        },
+        {
+          "end" : 7.460000038146973,
+          "start" : 7.179999828338623,
+          "text" : "学"
+        },
+        {
+          "end" : 8.079999923706055,
+          "start" : 7.940000057220459,
+          "text" : "区"
+        },
+        {
+          "end" : 8.260000228881836,
+          "start" : 8.079999923706055,
+          "text" : "分"
+        },
+        {
+          "end" : 8.479999542236328,
+          "start" : 8.260000228881836,
+          "text" : "可"
+        },
+        {
+          "end" : 8.699999809265137,
+          "start" : 8.479999542236328,
+          "text" : "逆"
+        },
+        {
+          "end" : 8.9399995803833,
+          "start" : 8.699999809265137,
+          "text" : "性"
+        },
+        {
+          "end" : 9.279999732971191,
+          "start" : 8.9399995803833,
+          "text" : "缺"
+        },
+        {
+          "end" : 9.460000038146973,
+          "start" : 9.279999732971191,
+          "text" : "血"
+        },
+        {
+          "end" : 9.779999732971191,
+          "start" : 9.460000038146973,
+          "text" : "与"
+        },
+        {
+          "end" : 10,
+          "start" : 9.779999732971191,
+          "text" : "坏"
+        },
+        {
+          "end" : 10.220000267028809,
+          "start" : 10,
+          "text" : "死"
+        },
+        {
+          "end" : 10.819999694824219,
+          "start" : 10.640000343322754,
+          "text" : "请"
+        },
+        {
+          "end" : 10.899999618530273,
+          "start" : 10.819999694824219,
+          "text" : "问"
+        },
+        {
+          "end" : 11.15999984741211,
+          "start" : 10.899999618530273,
+          "text" : "您"
+        },
+        {
+          "end" : 11.34000015258789,
+          "start" : 11.15999984741211,
+          "text" : "建"
+        },
+        {
+          "end" : 11.579999923706055,
+          "start" : 11.34000015258789,
+          "text" : "议"
+        },
+        {
+          "end" : 11.779999732971191,
+          "start" : 11.579999923706055,
+          "text" : "在"
+        },
+        {
+          "end" : 11.979999542236328,
+          "start" : 11.779999732971191,
+          "text" : "哪"
+        },
+        {
+          "end" : 12.399999618530273,
+          "start" : 11.979999542236328,
+          "text" : "里"
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "zh",
+      "promptTokenCount" : 0,
+      "text" : "请问您建议在哪个时间点进行验证?",
+      "track" : "microphone",
+      "windowEnd" : 13.99475,
+      "windowStart" : 10,
+      "wordScores" : [
+        0.95,
+        0.96,
+        0.99,
+        0.99,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.6800000071525574,
+          "start" : 0.019999999552965164,
+          "text" : "请"
+        },
+        {
+          "end" : 0.8999999761581421,
+          "start" : 0.6800000071525574,
+          "text" : "问"
+        },
+        {
+          "end" : 1.1200000047683716,
+          "start" : 0.8999999761581421,
+          "text" : "您"
+        },
+        {
+          "end" : 1.340000033378601,
+          "start" : 1.1200000047683716,
+          "text" : "建"
+        },
+        {
+          "end" : 1.5800000429153442,
+          "start" : 1.340000033378601,
+          "text" : "议"
+        },
+        {
+          "end" : 1.7000000476837158,
+          "start" : 1.5800000429153442,
+          "text" : "在"
+        },
+        {
+          "end" : 1.9600000381469727,
+          "start" : 1.7000000476837158,
+          "text" : "哪"
+        },
+        {
+          "end" : 2.180000066757202,
+          "start" : 1.9600000381469727,
+          "text" : "个"
+        },
+        {
+          "end" : 2.4600000381469727,
+          "start" : 2.180000066757202,
+          "text" : "时间"
+        },
+        {
+          "end" : 2.7799999713897705,
+          "start" : 2.4600000381469727,
+          "text" : "点"
+        },
+        {
+          "end" : 3.0399999618530273,
+          "start" : 2.7799999713897705,
+          "text" : "进"
+        },
+        {
+          "end" : 3.3399999141693115,
+          "start" : 3.0399999618530273,
+          "text" : "行"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.3399999141693115,
+          "text" : "验"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : "证?"
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote",
+      "windowEnd" : 11.160375,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.98,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        0.99,
+        1,
+        0.95,
+        0.99,
+        0.8,
+        0.93,
+        1,
+        0.99,
+        1,
+        1,
+        0.98,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.97,
+        0.99,
+        1,
+        0.99,
+        0.99,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0.019999999552965164,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0.3799999952316284,
+          "start" : 0.18000000715255737,
+          "text" : " not"
+        },
+        {
+          "end" : 0.8199999928474426,
+          "start" : 0.3799999952316284,
+          "text" : " entirely"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.8199999928474426,
+          "text" : " convinced"
+        },
+        {
+          "end" : 1.600000023841858,
+          "start" : 1.3799999952316284,
+          "text" : " that"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.600000023841858,
+          "text" : " the"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.7200000286102295,
+          "text" : " imaging"
+        },
+        {
+          "end" : 2.5199999809265137,
+          "start" : 2.0199999809265137,
+          "text" : " changes"
+        },
+        {
+          "end" : 2.9800000190734863,
+          "start" : 2.5199999809265137,
+          "text" : " you're"
+        },
+        {
+          "end" : 3.200000047683716,
+          "start" : 2.9800000190734863,
+          "text" : " seeing"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.200000047683716,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 4.400000095367432,
+          "start" : 3.880000114440918,
+          "text" : " represent"
+        },
+        {
+          "end" : 4.699999809265137,
+          "start" : 4.46999979019165,
+          "text" : " a"
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.699999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 5.5,
+          "start" : 5.019999980926514,
+          "text" : " muscle"
+        },
+        {
+          "end" : 5.940000057220459,
+          "start" : 5.5,
+          "text" : " injury."
+        },
+        {
+          "end" : 6.619999885559082,
+          "start" : 6.440000057220459,
+          "text" : " How"
+        },
+        {
+          "end" : 6.739999771118164,
+          "start" : 6.619999885559082,
+          "text" : " are"
+        },
+        {
+          "end" : 6.860000133514404,
+          "start" : 6.739999771118164,
+          "text" : " you"
+        },
+        {
+          "end" : 7.099999904632568,
+          "start" : 6.860000133514404,
+          "text" : " going"
+        },
+        {
+          "end" : 7.28000020980835,
+          "start" : 7.099999904632568,
+          "text" : " to"
+        },
+        {
+          "end" : 7.739999771118164,
+          "start" : 7.28000020980835,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 8.420000076293945,
+          "start" : 7.739999771118164,
+          "text" : " reversible"
+        },
+        {
+          "end" : 9,
+          "start" : 8.420000076293945,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 9.5,
+          "start" : 9,
+          "text" : " changes"
+        },
+        {
+          "end" : 9.779999732971191,
+          "start" : 9.5,
+          "text" : " from"
+        },
+        {
+          "end" : 10.140000343322754,
+          "start" : 9.779999732971191,
+          "text" : " actual"
+        },
+        {
+          "end" : 10.9399995803833,
+          "start" : 10.140000343322754,
+          "text" : " necrosis?"
+        }
+      ]
+    }
+  ],
+  "finalDelays" : [
+    3.365671396255493,
+    1.4205690622329712,
+    5.596940398216248
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.899999618530273,
+      "id" : "B323A08A-31A0-493F-B6C8-5218E996DA26",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "目前还不能把影像变化直接解释为不可逆的肌肉坏死我们需要结合组织病理学区分可逆性缺血与坏死请问",
+      "track" : "microphone"
+    },
+    {
+      "end" : 10.9399995803833,
+      "id" : "B6E3A973-38FF-416E-8CB0-81EA0CA8F53D",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote"
+    },
+    {
+      "end" : 13.819999933242798,
+      "id" : "7759512D-DEB6-4599-9494-B24CB0E3A272",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 2,
+      "start" : 10.899999976158142,
+      "text" : "您建议在哪个时间点进行验证?",
+      "track" : "microphone"
+    }
+  ],
+  "firstPartialSeconds" : 2.2003849744796753,
+  "fixtureSHA256" : {
+    "audio" : "6c43cb65321316f1463afae6f428c0db3e6c0a79c1fa4e8c5b27590d8921c470",
+    "critical-terms" : "6ea12a7163205838099ff8f8112d39b009f46168971a15bd1dd99601f55936ad",
+    "microphone-audio" : "4fd0ea0665b028e3e358dc2ac3a6896f9926a0cb0e7fa86af0365603caacfc15",
+    "microphone-reference" : "bcb6f19e8263f7769126dde67c0dbe79476cf751efb59dd8f498490d2df93f45",
+    "reference" : "6959e8b93a484a521b9831c586e7c0dd25a4aa11eb54e87341694873cc52181b"
+  },
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811255599.325883,
+  "glossaryConditioning" : false,
+  "microphoneMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "checkedCriticalTerms" : [
+
+    ],
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 59,
+    "referenceWords" : 4,
+    "wordErrorRate" : 1,
+    "wordErrors" : 4
+  },
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-critical-phrase-diagnostics-v2",
+  "preparationSeconds" : 2.760259985923767,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 802979840,
+  "processingWallSeconds" : 16.536980986595154,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.011904761904761904,
+    "characterErrors" : 2,
+    "checkedCriticalTerms" : [
+      "not entirely convinced",
+      "irreversible muscle injury",
+      "reversible ischemic changes",
+      "actual necrosis"
+    ],
+    "missingCriticalTerms" : [
+      "irreversible muscle injury"
+    ],
+    "referenceCharacters" : 168,
+    "referenceWords" : 27,
+    "wordErrorRate" : 0.07407407407407407,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote",
+    "microphone"
+  ]
+}

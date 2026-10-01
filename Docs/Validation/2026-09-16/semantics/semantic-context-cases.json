@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "datasetID": "research-meeting-context-regression-v1",
+  "provenance": "Failed context-citation subset of synthetic development corpus; draft labels unchanged.",
+  "cases": [
+    {
+      "id": "direct-01",
+      "category": "direct",
+      "partition": "development",
+      "review": {
+        "status": "draft",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "identity": "Dr. Chen, the presenting researcher. Dr. Patel and Dr. Li are other participants.",
+      "project": "Synthetic research meeting scenario. This is not a real study or clinical advice.",
+      "terminology": "histology / 组织学; necrosis / 坏死; perfusion / 灌注; irreversible / 不可逆; reversible / 可逆; NIRS / 近红外光谱",
+      "facts": [
+        {
+          "id": "fact-1",
+          "kind": "confirmedPlan",
+          "content": "We plan to compare imaging findings with histology."
+        }
+      ],
+      "events": [
+        {
+          "id": "context",
+          "track": "remote",
+          "start": 0,
+          "end": 5,
+          "text": "Dr. Chen, the following question is for you.",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        },
+        {
+          "id": "selected",
+          "track": "remote",
+          "start": 10,
+          "end": 15,
+          "text": "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        }
+      ],
+      "selectedIDs": [
+        "selected"
+      ],
+      "expected": {
+        "shouldOfferAnswer": true,
+        "addressee": "user",
+        "acceptableKinds": [
+          "QUESTION"
+        ],
+        "answerRubric": [
+          "分别识别时间点依据与组织学验证；只陈述已确认的比较计划，时间点依据列为待确认。"
+        ],
+        "forbiddenClaims": [
+          "编造具体时间点、依据、染色方法或已完成的组织学结果。"
+        ]
+      }
+    },
+    {
+      "id": "indirect-01",
+      "category": "indirect",
+      "partition": "development",
+      "review": {
+        "status": "draft",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "identity": "Dr. Chen, the presenting researcher. Dr. Patel and Dr. Li are other participants.",
+      "project": "Synthetic research meeting scenario. This is not a real study or clinical advice.",
+      "terminology": "histology / 组织学; necrosis / 坏死; perfusion / 灌注; irreversible / 不可逆; reversible / 可逆; NIRS / 近红外光谱",
+      "facts": [
+        {
+          "id": "fact-1",
+          "kind": "confirmedPlan",
+          "content": "We plan to compare imaging findings with histology."
+        }
+      ],
+      "events": [
+        {
+          "id": "context",
+          "track": "remote",
+          "start": 0,
+          "end": 5,
+          "text": "Dr. Chen, the following question is for you.",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        },
+        {
+          "id": "selected",
+          "track": "remote",
+          "start": 10,
+          "end": 15,
+          "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent irreversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        }
+      ],
+      "selectedIDs": [
+        "selected"
+      ],
+      "expected": {
+        "shouldOfferAnswer": true,
+        "addressee": "user",
+        "acceptableKinds": [
+          "CRITICISM",
+          "QUESTION"
+        ],
+        "answerRubric": [
+          "识别可逆缺血与实际坏死区分的质疑，不能把质疑改写成已证明的结果。"
+        ],
+        "forbiddenClaims": [
+          "承诺已通过组织学证实坏死，或编造阈值。"
+        ]
+      }
+    },
+    {
+      "id": "other-03",
+      "category": "other",
+      "partition": "development",
+      "review": {
+        "status": "draft",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "identity": "Dr. Chen, the presenting researcher. Dr. Patel and Dr. Li are other participants.",
+      "project": "Synthetic research meeting scenario. This is not a real study or clinical advice.",
+      "terminology": "histology / 组织学; necrosis / 坏死; perfusion / 灌注; irreversible / 不可逆; reversible / 可逆; NIRS / 近红外光谱",
+      "facts": [],
+      "events": [
+        {
+          "id": "context",
+          "track": "remote",
+          "start": 0,
+          "end": 5,
+          "text": "The next question is for Dr. Patel, not Dr. Chen.",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        },
+        {
+          "id": "selected",
+          "track": "remote",
+          "start": 10,
+          "end": 15,
+          "text": "Could you describe your control group?",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        }
+      ],
+      "selectedIDs": [
+        "selected"
+      ],
+      "expected": {
+        "shouldOfferAnswer": false,
+        "addressee": "other",
+        "acceptableKinds": [
+          "QUESTION"
+        ],
+        "answerRubric": [
+          "结合称谓或前文，问题针对他人，不为用户自动生成回答。"
+        ],
+        "forbiddenClaims": [
+          "因出现 Chen 或 you 就认定需要用户回答。"
+        ]
+      }
+    },
+    {
+      "id": "other-04",
+      "category": "other",
+      "partition": "development",
+      "review": {
+        "status": "draft",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "identity": "Dr. Chen, the presenting researcher. Dr. Patel and Dr. Li are other participants.",
+      "project": "Synthetic research meeting scenario. This is not a real study or clinical advice.",
+      "terminology": "histology / 组织学; necrosis / 坏死; perfusion / 灌注; irreversible / 不可逆; reversible / 可逆; NIRS / 近红外光谱",
+      "facts": [],
+      "events": [
+        {
+          "id": "context",
+          "track": "remote",
+          "start": 0,
+          "end": 5,
+          "text": "Dr. Li, let me ask you about your study.",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        },
+        {
+          "id": "selected",
+          "track": "remote",
+          "start": 10,
+          "end": 15,
+          "text": "Yes, and did you blind the readers?",
+          "revision": 0,
+          "isFinal": true,
+          "manuallyCorrected": false
+        }
+      ],
+      "selectedIDs": [
+        "selected"
+      ],
+      "expected": {
+        "shouldOfferAnswer": false,
+        "addressee": "other",
+        "acceptableKinds": [
+          "QUESTION"
+        ],
+        "answerRubric": [
+          "结合称谓或前文，问题针对他人，不为用户自动生成回答。"
+        ],
+        "forbiddenClaims": [
+          "因出现 Chen 或 you 就认定需要用户回答。"
+        ]
+      }
+    }
+  ]
+}

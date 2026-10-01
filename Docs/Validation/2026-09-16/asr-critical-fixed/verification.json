@@ -1,0 +1,54 @@
+{
+  "defaultTextComparisons": [
+    {
+      "case": "dual-english-chinese",
+      "track": "remote",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "dual-english-chinese",
+      "track": "microphone",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "irreversible-control",
+      "track": "remote",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "necrosis-samantha",
+      "track": "remote",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "necrosis",
+      "track": "remote",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "numbers-negation",
+      "track": "remote",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "reversible-control",
+      "track": "remote",
+      "exactTextUnchanged": true
+    },
+    {
+      "case": "timepoint",
+      "track": "remote",
+      "exactTextUnchanged": true
+    }
+  ],
+  "sourceSHA256": {
+    "Sources/CopilotCore/AudioPipeline.swift": "8b3db005e34817d5fcc42c728fdf15eb8217e243c9b601cafd094e3c3cce17ee",
+    "Sources/CopilotCore/Meeting.swift": "b6edf03b3cc30ff08c9d2e12ed05f3a0c3d110d1b0351ccb8ddde33025492542",
+    "Sources/CopilotCore/RecognitionMetrics.swift": "3adbb7773cf12803a840b0facbb91267c11f19c56ba41ee30746d39d0e35445e",
+    "Sources/CopilotSpeech/WhisperKitProvider.swift": "fe79f7d945ccb8694c13ad52cfdec50218fe72f9dce186ec773b2e8fccae8d62",
+    "Sources/CopilotDiagnostics/main.swift": "c3fe3ce51c11aa34cfe3706a847fcccd6f317ca94578a75cb958953ddc9d52e6",
+    "Sources/ResearchCopilot/ResearchCopilotApp.swift": "5df6081d5b870bd1cfcb2041c8cfbe13ed081e8576eba98ca9e217bc1923161e"
+  },
+  "testsPassed": 80,
+  "timingExportSHA256": "d438968be15b90818e0e9ef22f88cc803a9f0f84512588a5217c92fc0b3cda42"
+}

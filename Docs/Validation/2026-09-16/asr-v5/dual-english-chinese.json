@@ -1,0 +1,83 @@
+{
+  "audioDuration" : 13.99475,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    4.14711332321167,
+    2.2430530786514282,
+    6.4884233474731445
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.899999618530273,
+      "id" : "A54D7DD4-2190-48AE-A9D6-5017CC596C05",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "目前还不能把影像变化直接解释为不可逆的肌肉坏死我们需要结合组织病理学区分可逆性缺血与坏死请问",
+      "track" : "microphone"
+    },
+    {
+      "end" : 10.9399995803833,
+      "id" : "E5798BB0-38E4-4C49-8316-5CA25FCFAC5F",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote"
+    },
+    {
+      "end" : 13.819999933242798,
+      "id" : "A186E528-BD61-450E-BD37-BAD20097EF93",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 2,
+      "start" : 10.899999976158142,
+      "text" : "您建议在哪个时间点进行验证?",
+      "track" : "microphone"
+    }
+  ],
+  "firstPartialSeconds" : 2.016266942024231,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811248344.030651,
+  "glossaryConditioning" : false,
+  "microphoneMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 59,
+    "referenceWords" : 4,
+    "wordErrorRate" : 1,
+    "wordErrors" : 4
+  },
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-overlap-v4-language-detection",
+  "preparationSeconds" : 55.38047897815704,
+  "processPeakResidentBytes" : 1123778560,
+  "processingWallSeconds" : 17.428493976593018,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.011904761904761904,
+    "characterErrors" : 2,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 168,
+    "referenceWords" : 27,
+    "wordErrorRate" : 0.07407407407407407,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote",
+    "microphone"
+  ]
+}

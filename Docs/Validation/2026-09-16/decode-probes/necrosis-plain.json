@@ -1,0 +1,32 @@
+{
+  "clipEndSeconds" : 11.160375,
+  "clipStartSeconds" : 0,
+  "fixtureSHA256" : {
+    "audio" : "6c43cb65321316f1463afae6f428c0db3e6c0a79c1fa4e8c5b27590d8921c470"
+  },
+  "language" : "en",
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "One-shot decode outside the streaming pipeline; diagnostic probe only. Prompt conditions are not evaluation inputs and cannot be used to claim recognition quality. Word scores are decoder-derived and not calibrated correctness probabilities.",
+  "preparationSeconds" : 2.163432002067566,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "runs" : [
+    {
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "wordScores" : [
+
+      ],
+      "words" : [
+
+      ]
+    }
+  ],
+  "wordTimestamps" : false
+}

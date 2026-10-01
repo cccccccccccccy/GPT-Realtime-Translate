@@ -1,0 +1,198 @@
+{
+  "clipEndSeconds" : 9.9075625,
+  "clipStartSeconds" : 0,
+  "fixtureSHA256" : {
+    "audio" : "44d346f5fa2850ab399f5f24cb315f9a14b0e3a482dc8502c34b9b665dac4b4e"
+  },
+  "language" : "en",
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "One-shot decode outside the streaming pipeline; diagnostic probe only. Prompt conditions are not evaluation inputs and cannot be used to claim recognition quality. Word scores are decoder-derived and not calibrated correctness probabilities.",
+  "preparationSeconds" : 2.4172770977020264,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "runs" : [
+    {
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "wordScores" : [
+        0.96,
+        1,
+        1,
+        1,
+        0.99,
+        0.99,
+        0.99,
+        0.99,
+        0.95,
+        0.99,
+        0.82,
+        0.91,
+        1,
+        0.98,
+        1,
+        1,
+        0.98,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.97,
+        1,
+        1,
+        0.99,
+        0.99,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.1599999964237213,
+          "start" : 0.019999999552965164,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.1599999964237213,
+          "text" : " not"
+        },
+        {
+          "end" : 0.5199999809265137,
+          "start" : 0.30000001192092896,
+          "text" : " entirely"
+        },
+        {
+          "end" : 1.059999942779541,
+          "start" : 0.5199999809265137,
+          "text" : " convinced"
+        },
+        {
+          "end" : 1.4199999570846558,
+          "start" : 1.059999942779541,
+          "text" : " that"
+        },
+        {
+          "end" : 1.5399999618530273,
+          "start" : 1.4199999570846558,
+          "text" : " the"
+        },
+        {
+          "end" : 1.7999999523162842,
+          "start" : 1.5399999618530273,
+          "text" : " imaging"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.7999999523162842,
+          "text" : " changes"
+        },
+        {
+          "end" : 2.559999942779541,
+          "start" : 2.240000009536743,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.7799999713897705,
+          "start" : 2.559999942779541,
+          "text" : " seeing"
+        },
+        {
+          "end" : 3.4600000381469727,
+          "start" : 2.7799999713897705,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 3.9200000762939453,
+          "start" : 3.4600000381469727,
+          "text" : " represent"
+        },
+        {
+          "end" : 4.139999866485596,
+          "start" : 4,
+          "text" : " a"
+        },
+        {
+          "end" : 4.480000019073486,
+          "start" : 4.139999866485596,
+          "text" : " reversible"
+        },
+        {
+          "end" : 4.900000095367432,
+          "start" : 4.480000019073486,
+          "text" : " muscle"
+        },
+        {
+          "end" : 5.300000190734863,
+          "start" : 4.900000095367432,
+          "text" : " injury."
+        },
+        {
+          "end" : 5.900000095367432,
+          "start" : 5.78000020980835,
+          "text" : " How"
+        },
+        {
+          "end" : 5.980000019073486,
+          "start" : 5.900000095367432,
+          "text" : " are"
+        },
+        {
+          "end" : 6.099999904632568,
+          "start" : 5.980000019073486,
+          "text" : " you"
+        },
+        {
+          "end" : 6.300000190734863,
+          "start" : 6.099999904632568,
+          "text" : " going"
+        },
+        {
+          "end" : 6.480000019073486,
+          "start" : 6.300000190734863,
+          "text" : " to"
+        },
+        {
+          "end" : 6.900000095367432,
+          "start" : 6.480000019073486,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 7.5,
+          "start" : 6.900000095367432,
+          "text" : " reversible"
+        },
+        {
+          "end" : 8.079999923706055,
+          "start" : 7.5,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 8.460000038146973,
+          "start" : 8.079999923706055,
+          "text" : " changes"
+        },
+        {
+          "end" : 8.739999771118164,
+          "start" : 8.460000038146973,
+          "text" : " from"
+        },
+        {
+          "end" : 8.979999542236328,
+          "start" : 8.739999771118164,
+          "text" : " actual"
+        },
+        {
+          "end" : 9.720000267028809,
+          "start" : 8.979999542236328,
+          "text" : " necrosis?"
+        }
+      ]
+    }
+  ],
+  "wordTimestamps" : true
+}

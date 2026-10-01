@@ -1,0 +1,600 @@
+{
+  "audioDuration" : 10.913875,
+  "decodeTraces" : [
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 1,
+      "text" : "The tissue shows a reverse",
+      "track" : "remote",
+      "windowEnd" : 1.2000000000000002,
+      "windowID" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.72,
+        0.97,
+        0.99,
+        0.6,
+        0.31
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " The"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.699999988079071,
+          "start" : 0.30000001192092896,
+          "text" : " shows"
+        },
+        {
+          "end" : 0.8600000143051147,
+          "start" : 0.699999988079071,
+          "text" : " a"
+        },
+        {
+          "end" : 1.059999942779541,
+          "start" : 0.8600000143051147,
+          "text" : " reverse"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 2,
+      "text" : "The tissue shows irreversible muscle injury.",
+      "track" : "remote",
+      "windowEnd" : 2.4,
+      "windowID" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.64,
+        0.99,
+        1,
+        0.99,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " The"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.699999988079071,
+          "start" : 0.30000001192092896,
+          "text" : " shows"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.699999988079071,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7200000286102295,
+          "text" : " injury."
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 3,
+      "text" : "the tissue shows irreversible muscle injury not reversible issue",
+      "track" : "remote",
+      "windowEnd" : 3.6,
+      "windowID" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.43,
+        0.97,
+        0.97,
+        0.84,
+        0.98,
+        0.86,
+        0.59,
+        0.96,
+        0.42
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " the"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.699999988079071,
+          "start" : 0.30000001192092896,
+          "text" : " shows"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.699999988079071,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 1.7000000476837158,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7000000476837158,
+          "text" : " injury"
+        },
+        {
+          "end" : 2.5999999046325684,
+          "start" : 2.059999942779541,
+          "text" : " not"
+        },
+        {
+          "end" : 2.940000057220459,
+          "start" : 2.5999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.4600000381469727,
+          "start" : 2.940000057220459,
+          "text" : " issue"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 5,
+      "text" : "the tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes",
+      "track" : "remote",
+      "windowEnd" : 6,
+      "windowID" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.52,
+        0.99,
+        0.99,
+        0.98,
+        0.99,
+        0.99,
+        0.81,
+        0.96,
+        0.99,
+        0.97,
+        0.97,
+        1,
+        0.89
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " the"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.699999988079071,
+          "start" : 0.30000001192092896,
+          "text" : " shows"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.699999988079071,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7200000286102295,
+          "text" : " injury,"
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.299999952316284,
+          "text" : " not"
+        },
+        {
+          "end" : 2.940000057220459,
+          "start" : 2.619999885559082,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.700000047683716,
+          "start" : 2.940000057220459,
+          "text" : " ischemia."
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4.059999942779541,
+          "text" : " However,"
+        },
+        {
+          "end" : 4.980000019073486,
+          "start" : 4.599999904632568,
+          "text" : " these"
+        },
+        {
+          "end" : 5.28000020980835,
+          "start" : 4.980000019073486,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.880000114440918,
+          "start" : 5.28000020980835,
+          "text" : " changes"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 7,
+      "text" : "The tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes alone do not establish necrosis.",
+      "track" : "remote",
+      "windowEnd" : 8.4,
+      "windowID" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.66,
+        0.98,
+        1,
+        0.97,
+        0.99,
+        1,
+        0.94,
+        0.97,
+        0.99,
+        0.99,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " The"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.699999988079071,
+          "start" : 0.30000001192092896,
+          "text" : " shows"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.699999988079071,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 1.7000000476837158,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7000000476837158,
+          "text" : " injury,"
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.299999952316284,
+          "text" : " not"
+        },
+        {
+          "end" : 2.940000057220459,
+          "start" : 2.619999885559082,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.700000047683716,
+          "start" : 2.940000057220459,
+          "text" : " ischemia."
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4.079999923706055,
+          "text" : " However,"
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.599999904632568,
+          "text" : " these"
+        },
+        {
+          "end" : 5.400000095367432,
+          "start" : 5.019999980926514,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.880000114440918,
+          "start" : 5.400000095367432,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.159999847412109,
+          "start" : 5.880000114440918,
+          "text" : " alone"
+        },
+        {
+          "end" : 6.380000114440918,
+          "start" : 6.159999847412109,
+          "text" : " do"
+        },
+        {
+          "end" : 6.579999923706055,
+          "start" : 6.380000114440918,
+          "text" : " not"
+        },
+        {
+          "end" : 7.059999942779541,
+          "start" : 6.579999923706055,
+          "text" : " establish"
+        },
+        {
+          "end" : 7.800000190734863,
+          "start" : 7.059999942779541,
+          "text" : " necrosis."
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 10,
+      "text" : "The tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes alone do not establish necrosis. Histological validation is still required.",
+      "track" : "remote",
+      "windowEnd" : 10.913875,
+      "windowID" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.67,
+        0.99,
+        1,
+        0.99,
+        1,
+        1,
+        0.91,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " The"
+        },
+        {
+          "end" : 0.30000001192092896,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.699999988079071,
+          "start" : 0.30000001192092896,
+          "text" : " shows"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 0.699999988079071,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7200000286102295,
+          "text" : " injury,"
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.2799999713897705,
+          "text" : " not"
+        },
+        {
+          "end" : 2.940000057220459,
+          "start" : 2.619999885559082,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.680000066757202,
+          "start" : 2.940000057220459,
+          "text" : " ischemia."
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4.28000020980835,
+          "text" : " However,"
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.599999904632568,
+          "text" : " these"
+        },
+        {
+          "end" : 5.28000020980835,
+          "start" : 5.019999980926514,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.880000114440918,
+          "start" : 5.28000020980835,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.159999847412109,
+          "start" : 5.880000114440918,
+          "text" : " alone"
+        },
+        {
+          "end" : 6.380000114440918,
+          "start" : 6.159999847412109,
+          "text" : " do"
+        },
+        {
+          "end" : 6.579999923706055,
+          "start" : 6.380000114440918,
+          "text" : " not"
+        },
+        {
+          "end" : 7.059999942779541,
+          "start" : 6.579999923706055,
+          "text" : " establish"
+        },
+        {
+          "end" : 8,
+          "start" : 7.059999942779541,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 8.65999984741211,
+          "start" : 8.380000114440918,
+          "text" : " Histological"
+        },
+        {
+          "end" : 9.279999732971191,
+          "start" : 8.65999984741211,
+          "text" : " validation"
+        },
+        {
+          "end" : 9.779999732971191,
+          "start" : 9.279999732971191,
+          "text" : " is"
+        },
+        {
+          "end" : 10,
+          "start" : 9.779999732971191,
+          "text" : " still"
+        },
+        {
+          "end" : 10.319999694824219,
+          "start" : 10,
+          "text" : " required."
+        }
+      ]
+    }
+  ],
+  "finalDelays" : [
+    7.331610321998596
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.319999694824219,
+      "id" : "0576C3A9-CA18-48BB-BC2A-7B9D64E9EA57",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "The tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes alone do not establish necrosis. Histological validation is still required.",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 2.52024507522583,
+  "fixtureSHA256" : {
+    "audio" : "ee0eb3afc65eca8049bbb48307f4458d297a06621ee2ca67af5c4da5be8652fb",
+    "critical-terms" : "8f01ea3ea92e976988680efa30a82d98aeeab9a48187401dfa2dcd2d27f93833",
+    "reference" : "7a16a130b428e390de38f278d8712fc39d97ffc0745678ecbe4f02566e32df8e"
+  },
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811258233.683549,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3_947MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-untimed-word-groups-v3",
+  "preparationSeconds" : 2.7040539979934692,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/ResourceIntegrity\/7f3e3f3804bd9505a06b4c95d54ea2eb66cee7e1f75ebeafa97bce08bd66e945.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3_947MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 1051377664,
+  "processingWallSeconds" : 17.65166199207306,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "checkedCriticalTerms" : [
+      "irreversible muscle injury",
+      "not reversible ischemia",
+      "do not establish necrosis",
+      "validation is still required"
+    ],
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 149,
+    "referenceWords" : 23,
+    "wordErrorRate" : 0,
+    "wordErrors" : 0
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

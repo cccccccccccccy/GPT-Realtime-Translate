@@ -1,0 +1,90 @@
+{
+  "audioDuration" : 13.99475,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    2.453162431716919,
+    3.764262318611145,
+    1.2099339962005615
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.899999618530273,
+      "id" : "0400E82E-2C48-40F1-93A0-4B8084AF86A2",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote"
+    },
+    {
+      "end" : 10.9399995803833,
+      "id" : "083C46E2-BBFF-4415-A6B6-670863553677",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0,
+      "text" : "目前还不能把影像变化直接解释为不可逆的肌肉坏死,我们需要结合组织病理学,区分可逆性缺血与坏死。请问",
+      "track" : "microphone"
+    },
+    {
+      "end" : 13.819999933242798,
+      "id" : "4E4AD1CD-B14E-4E91-AC49-69D2066C9087",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 2,
+      "start" : 10.939999997615814,
+      "text" : "您建议在哪个时间点进行验证?",
+      "track" : "microphone"
+    }
+  ],
+  "firstPartialSeconds" : 1.3995189666748047,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811250262.521421,
+  "glossaryConditioning" : false,
+  "microphoneMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 59,
+    "referenceWords" : 4,
+    "wordErrorRate" : 0.5,
+    "wordErrors" : 2
+  },
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-small",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-local-tokenizer-v1",
+  "preparationSeconds" : 1.3771939277648926,
+  "preparedResources" : {
+    "embeddingSize" : 768,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/ResourceIntegrity\/761096f34467b5cec64bc22ca7ded4cf200fd203127f76e2e6c03eed7ed42462.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-small",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/openai\/whisper-small",
+    "vocabularySize" : 51865
+  },
+  "processPeakResidentBytes" : 624934912,
+  "processingWallSeconds" : 15.029968023300171,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.011904761904761904,
+    "characterErrors" : 2,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 168,
+    "referenceWords" : 27,
+    "wordErrorRate" : 0.07407407407407407,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote",
+    "microphone"
+  ]
+}

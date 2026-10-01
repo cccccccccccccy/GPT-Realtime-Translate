@@ -1,0 +1,67 @@
+{
+  "audioDuration" : 15.4165,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    2.14083194732666,
+    0.6496731042861938
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.5,
+      "id" : "CD1BFCAA-4CA8-460A-8B1A-81AD14194968",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 mm of mercury,",
+      "track" : "remote"
+    },
+    {
+      "end" : 15.139999866485596,
+      "id" : "3570AF8E-EDF5-48E6-93BF-7C7C0FD926AD",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 3,
+      "start" : 10.839999973773956,
+      "text" : "not 13. We need histological validation before drawing a conclusion.",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 1.3827300071716309,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811250246.063829,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-small",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-local-tokenizer-v1",
+  "preparationSeconds" : 1.0635770559310913,
+  "preparedResources" : {
+    "embeddingSize" : 768,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/ResourceIntegrity\/761096f34467b5cec64bc22ca7ded4cf200fd203127f76e2e6c03eed7ed42462.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-small",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/openai\/whisper-small",
+    "vocabularySize" : 51865
+  },
+  "processPeakResidentBytes" : 625065984,
+  "processingWallSeconds" : 15.789716005325317,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.058823529411764705,
+    "characterErrors" : 12,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 204,
+    "referenceWords" : 39,
+    "wordErrorRate" : 0.05128205128205128,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

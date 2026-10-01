@@ -1,0 +1,62 @@
+[
+  {
+    "caseID": "direct-01",
+    "analysis": {
+      "addressee": "user",
+      "coreMeaning": "提问者询问 Dr. Chen 选择该时间点的理由，以及打算如何用组织学方法对该时间点进行验证。",
+      "intent": "了解研究设计中选择该时间点的科学依据，并确认组织学验证的具体方案，以便评估研究设计的合理性和可行性。",
+      "kind": "QUESTION",
+      "reason": "这是一个直接针对 Dr. Chen 研究设计的提问，需要 Dr. Chen 说明选择时间点的理由和组织学验证计划。",
+      "requiresResponse": true,
+      "sourceIDs": [
+        "context",
+        "selected"
+      ]
+    }
+  },
+  {
+    "caseID": "indirect-01",
+    "analysis": {
+      "addressee": "user",
+      "coreMeaning": "对方对演讲者所观察到的影像学改变是否必然代表不可逆的肌肉损伤表示怀疑，并询问演讲者打算如何区分可逆性缺血改变与真正的坏死。",
+      "intent": "质疑影像学改变与不可逆肌肉损伤之间的必然联系，并要求说明区分可逆性缺血与坏死的方法。",
+      "kind": "QUESTION",
+      "reason": "这是一项直接针对演讲者研究结论和方法学的质疑性问题，需要演讲者回应并说明鉴别可逆性缺血改变与坏死的具体方案。",
+      "requiresResponse": true,
+      "sourceIDs": [
+        "context",
+        "selected"
+      ]
+    }
+  },
+  {
+    "caseID": "other-03",
+    "analysis": {
+      "addressee": "other",
+      "coreMeaning": "问话者请对方描述其研究的对照组情况，这是一个针对研究设计的直接提问。",
+      "intent": "了解对方研究中对照组的设置与描述。",
+      "kind": "QUESTION",
+      "reason": "该问题直接指向“你的对照组”，且上下文说明下一个问题不是给 Dr. Chen，因此是向他人提问，不需要由 Dr. Chen 回答。",
+      "requiresResponse": false,
+      "sourceIDs": [
+        "context",
+        "selected"
+      ]
+    }
+  },
+  {
+    "caseID": "other-04",
+    "analysis": {
+      "addressee": "user",
+      "coreMeaning": "询问研究者是否对读片者（读者）实施了盲法设置。",
+      "intent": "确认研究中读片评估是否采用盲法，以评估偏倚控制情况。",
+      "kind": "QUESTION",
+      "reason": "该问题直接针对用户（Dr. Chen）的研究方法，需要用户就研究设计作出回应。",
+      "requiresResponse": true,
+      "sourceIDs": [
+        "selected",
+        "context"
+      ]
+    }
+  }
+]

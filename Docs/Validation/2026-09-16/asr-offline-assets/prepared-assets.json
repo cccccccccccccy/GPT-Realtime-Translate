@@ -1,0 +1,7 @@
+{
+  "embeddingSize" : 1280,
+  "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+  "vocabularySize" : 51866
+}

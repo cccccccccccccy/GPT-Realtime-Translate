@@ -1,0 +1,1108 @@
+{
+  "audioDuration" : 11.8168125,
+  "decodeTraces" : [
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "the imaging changes may",
+      "track" : "remote",
+      "windowEnd" : 1.2000000000000002,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.3,
+        0.91,
+        0.98,
+        0.8
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " the"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.46000000834465027,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6600000262260437,
+          "start" : 0.46000000834465027,
+          "text" : " may"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible",
+      "track" : "remote",
+      "windowEnd" : 2.4,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.75,
+        0.95,
+        1,
+        0.99,
+        1,
+        0.97
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0399999618530273,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.5,
+          "start" : 1.0399999618530273,
+          "text" : " reversible"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury.",
+      "track" : "remote",
+      "windowEnd" : 3.6,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.83,
+        0.97,
+        1,
+        1,
+        1,
+        0.97,
+        0.98,
+        0.97
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established",
+      "track" : "remote",
+      "windowEnd" : 4.8,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.66,
+        0.97,
+        1,
+        0.99,
+        1,
+        0.96,
+        0.96,
+        0.9,
+        0.86,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.4600000381469727,
+          "text" : " We"
+        },
+        {
+          "end" : 2.740000009536743,
+          "start" : 2.619999885559082,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.740000009536743,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established a reversible",
+      "track" : "remote",
+      "windowEnd" : 6,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.61,
+        0.97,
+        1,
+        0.99,
+        0.99,
+        0.93,
+        0.97,
+        0.97,
+        0.74,
+        1,
+        1,
+        0.99,
+        0.95,
+        0.98
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.4800000190734863,
+          "text" : " We"
+        },
+        {
+          "end" : 2.740000009536743,
+          "start" : 2.619999885559082,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.740000009536743,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.319999933242798,
+          "text" : " a"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : " reversible"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please",
+      "track" : "remote",
+      "windowEnd" : 7.199999999999999,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.56,
+        0.96,
+        1,
+        0.99,
+        0.99,
+        0.92,
+        0.92,
+        0.91,
+        0.74,
+        1,
+        1,
+        0.99,
+        0.92,
+        0.98,
+        0.57,
+        0.59
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.4800000190734863,
+          "text" : " We"
+        },
+        {
+          "end" : 2.7200000286102295,
+          "start" : 2.619999885559082,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.7200000286102295,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.319999933242798,
+          "text" : " a"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 4.539999961853027,
+          "start" : 3.819999933242798,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.699999809265137,
+          "text" : " Please"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemia.",
+      "track" : "remote",
+      "windowEnd" : 8.4,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.57,
+        0.97,
+        1,
+        0.99,
+        1,
+        0.93,
+        0.88,
+        0.88,
+        0.47,
+        1,
+        0.98,
+        0.96,
+        0.94,
+        0.92,
+        0.58,
+        0.93,
+        0.96,
+        0.94,
+        0.66
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.5999999046325684,
+          "start" : 2.4600000381469727,
+          "text" : " We"
+        },
+        {
+          "end" : 2.7200000286102295,
+          "start" : 2.5999999046325684,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.7200000286102295,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.319999933242798,
+          "text" : " a"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 4.539999961853027,
+          "start" : 3.819999933242798,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.699999809265137,
+          "text" : " Please"
+        },
+        {
+          "end" : 5.519999980926514,
+          "start" : 5.019999980926514,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.960000038146973,
+          "start" : 5.519999980926514,
+          "text" : " reversible"
+        },
+        {
+          "end" : 6.420000076293945,
+          "start" : 5.960000038146973,
+          "text" : " ischemia."
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemic changes from",
+      "track" : "remote",
+      "windowEnd" : 9.6,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.65,
+        0.97,
+        1,
+        0.99,
+        0.99,
+        0.92,
+        0.92,
+        0.9,
+        0.5,
+        0.99,
+        0.97,
+        0.92,
+        0.91,
+        0.9,
+        0.55,
+        0.9,
+        0.97,
+        0.96,
+        1,
+        1,
+        0.98
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.5999999046325684,
+          "start" : 2.4600000381469727,
+          "text" : " We"
+        },
+        {
+          "end" : 2.7200000286102295,
+          "start" : 2.5999999046325684,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.7200000286102295,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.319999933242798,
+          "text" : " a"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 4.539999961853027,
+          "start" : 3.819999933242798,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 5.019999980926514,
+          "start" : 4.699999809265137,
+          "text" : " Please"
+        },
+        {
+          "end" : 5.360000133514404,
+          "start" : 5.019999980926514,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.960000038146973,
+          "start" : 5.360000133514404,
+          "text" : " reversible"
+        },
+        {
+          "end" : 6.400000095367432,
+          "start" : 5.960000038146973,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 6.840000152587891,
+          "start" : 6.400000095367432,
+          "text" : " changes"
+        },
+        {
+          "end" : 7.039999961853027,
+          "start" : 6.840000152587891,
+          "text" : " from"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemic changes from tissue death before making",
+      "track" : "remote",
+      "windowEnd" : 10.799999999999999,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.61,
+        0.97,
+        1,
+        0.99,
+        0.99,
+        0.95,
+        0.92,
+        0.87,
+        0.58,
+        1,
+        0.99,
+        0.97,
+        0.91,
+        0.96,
+        1,
+        0.99,
+        0.97,
+        0.98,
+        1,
+        1,
+        1,
+        0.99,
+        0.98,
+        1,
+        0.46
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.4600000381469727,
+          "text" : " We"
+        },
+        {
+          "end" : 2.7200000286102295,
+          "start" : 2.619999885559082,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.7200000286102295,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.319999933242798,
+          "text" : " a"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 4.400000095367432,
+          "start" : 3.819999933242798,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 4.860000133514404,
+          "start" : 4.539999961853027,
+          "text" : " Please"
+        },
+        {
+          "end" : 5.199999809265137,
+          "start" : 4.860000133514404,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.800000190734863,
+          "start" : 5.199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 6.239999771118164,
+          "start" : 5.800000190734863,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 6.699999809265137,
+          "start" : 6.239999771118164,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.880000114440918,
+          "start" : 6.699999809265137,
+          "text" : " from"
+        },
+        {
+          "end" : 7.159999847412109,
+          "start" : 6.880000114440918,
+          "text" : " tissue"
+        },
+        {
+          "end" : 7.380000114440918,
+          "start" : 7.159999847412109,
+          "text" : " death"
+        },
+        {
+          "end" : 7.699999809265137,
+          "start" : 7.380000114440918,
+          "text" : " before"
+        },
+        {
+          "end" : 7.940000057220459,
+          "start" : 7.699999809265137,
+          "text" : " making"
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemic changes from tissue death before making that claim.",
+      "track" : "remote",
+      "windowEnd" : 11.816812500000001,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.71,
+        0.97,
+        1,
+        1,
+        1,
+        0.95,
+        0.98,
+        0.96,
+        0.49,
+        1,
+        0.99,
+        0.97,
+        0.94,
+        0.95,
+        0.7,
+        0.78,
+        0.94,
+        0.94,
+        1,
+        1,
+        1,
+        0.99,
+        0.99,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " The"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " imaging"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0,
+          "text" : " changes"
+        },
+        {
+          "end" : 0.6200000047683716,
+          "start" : 0.4399999976158142,
+          "text" : " may"
+        },
+        {
+          "end" : 1.0199999809265137,
+          "start" : 0.6200000047683716,
+          "text" : " represent"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.0199999809265137,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.8799999952316284,
+          "start" : 1.3799999952316284,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 1.8799999952316284,
+          "text" : " injury."
+        },
+        {
+          "end" : 2.619999885559082,
+          "start" : 2.4600000381469727,
+          "text" : " We"
+        },
+        {
+          "end" : 2.740000009536743,
+          "start" : 2.619999885559082,
+          "text" : " have"
+        },
+        {
+          "end" : 2.859999895095825,
+          "start" : 2.740000009536743,
+          "text" : " not"
+        },
+        {
+          "end" : 3.319999933242798,
+          "start" : 2.859999895095825,
+          "text" : " established"
+        },
+        {
+          "end" : 3.5999999046325684,
+          "start" : 3.319999933242798,
+          "text" : " a"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.5999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 4.539999961853027,
+          "start" : 3.819999933242798,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 4.960000038146973,
+          "start" : 4.679999828338623,
+          "text" : " Please"
+        },
+        {
+          "end" : 5.360000133514404,
+          "start" : 4.960000038146973,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.960000038146973,
+          "start" : 5.360000133514404,
+          "text" : " reversible"
+        },
+        {
+          "end" : 6.400000095367432,
+          "start" : 5.960000038146973,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 6.840000152587891,
+          "start" : 6.400000095367432,
+          "text" : " changes"
+        },
+        {
+          "end" : 7.039999961853027,
+          "start" : 6.840000152587891,
+          "text" : " from"
+        },
+        {
+          "end" : 7.320000171661377,
+          "start" : 7.039999961853027,
+          "text" : " tissue"
+        },
+        {
+          "end" : 7.539999961853027,
+          "start" : 7.320000171661377,
+          "text" : " death"
+        },
+        {
+          "end" : 7.860000133514404,
+          "start" : 7.539999961853027,
+          "text" : " before"
+        },
+        {
+          "end" : 8.140000343322754,
+          "start" : 7.860000133514404,
+          "text" : " making"
+        },
+        {
+          "end" : 8.319999694824219,
+          "start" : 8.140000343322754,
+          "text" : " that"
+        },
+        {
+          "end" : 8.539999961853027,
+          "start" : 8.319999694824219,
+          "text" : " claim."
+        }
+      ]
+    }
+  ],
+  "finalDelays" : [
+    5.492182016372681
+  ],
+  "finalSegments" : [
+    {
+      "end" : 8.539999961853027,
+      "id" : "2C7AC110-80A9-4972-A473-AFF6DB830EBC",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0,
+      "text" : "changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemic changes from tissue death before making that claim.",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 2.2025829553604126,
+  "fixtureSHA256" : {
+    "audio" : "e5d7bd3236f152b80f70eb629d2997247721199f93bce4a845019584327f904f",
+    "critical-terms" : "eae1435ffe1eff1f1c396f204ce8ecbb857aafa3b879e29cacccb31921a62c25",
+    "hint-file" : "999f5747d8e3d7747918dff24c1741004e6a63843b2633a15e2c6c3156d2a7c6",
+    "reference" : "d3007b0268e72f39454cd55ea7c409217c0dc07a434d0bfb564cf5df185d95dd"
+  },
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811255662.876742,
+  "glossaryConditioning" : true,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-critical-phrase-diagnostics-v2",
+  "preparationSeconds" : 2.4369460344314575,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 805388288,
+  "processingWallSeconds" : 14.03222393989563,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.07100591715976332,
+    "characterErrors" : 12,
+    "checkedCriticalTerms" : [
+      "reversible muscle injury",
+      "not established irreversible necrosis",
+      "reversible ischemic changes"
+    ],
+    "missingCriticalTerms" : [
+      "not established irreversible necrosis"
+    ],
+    "referenceCharacters" : 169,
+    "referenceWords" : 26,
+    "wordErrorRate" : 0.15384615384615385,
+    "wordErrors" : 4
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

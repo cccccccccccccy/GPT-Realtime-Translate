@@ -1,0 +1,54 @@
+{
+  "clipEndSeconds" : 5.6,
+  "clipStartSeconds" : 4.2,
+  "fixtureSHA256" : {
+    "audio" : "6c43cb65321316f1463afae6f428c0db3e6c0a79c1fa4e8c5b27590d8921c470"
+  },
+  "language" : "en",
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "One-shot decode outside the streaming pipeline; diagnostic probe only. Prompt conditions are not evaluation inputs and cannot be used to claim recognition quality. Word scores are decoder-derived and not calibrated correctness probabilities.",
+  "preparationSeconds" : 2.1236289739608765,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "runs" : [
+    {
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "present a reversible muscle",
+      "wordScores" : [
+        0.74,
+        0.98,
+        0.88,
+        0.98
+      ],
+      "words" : [
+        {
+          "end" : 0.3199999928474426,
+          "start" : 0.019999999552965164,
+          "text" : " present"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.3199999928474426,
+          "text" : " a"
+        },
+        {
+          "end" : 0.8199999928474426,
+          "start" : 0.5,
+          "text" : " reversible"
+        },
+        {
+          "end" : 1.2999999523162842,
+          "start" : 0.8199999928474426,
+          "text" : " muscle"
+        }
+      ]
+    }
+  ],
+  "wordTimestamps" : true
+}

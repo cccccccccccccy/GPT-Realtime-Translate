@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key><string>zh_CN</string>
+    <key>CFBundleDisplayName</key><string>科研会议 AI 副驾</string>
+    <key>CFBundleExecutable</key><string>ResearchCopilot</string>
+    <key>CFBundleIdentifier</key><string>org.researchcopilot.app</string>
+    <key>CFBundleName</key><string>ResearchCopilot</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>LSMinimumSystemVersion</key><string>15.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>NSMicrophoneUsageDescription</key><string>仅在你开启“记录我的发言”时识别本人语音。副驾麦克风与 Zoom 静音状态独立。</string>
+    <key>NSScreenCaptureUsageDescription</key><string>捕获你选择的 Zoom 应用音频，用于会议转写与辅助理解。</string>
+</dict>
+</plist>
+

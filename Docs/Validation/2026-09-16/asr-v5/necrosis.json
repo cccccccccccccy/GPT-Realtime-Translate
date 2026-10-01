@@ -1,0 +1,49 @@
+{
+  "audioDuration" : 11.160375,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    2.424286365509033
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.9399995803833,
+      "id" : "654CABDB-5515-4A42-8A51-84E3DB9B13F6",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 1.9998369216918945,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811248251.995764,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-overlap-v4-language-detection",
+  "preparationSeconds" : 54.756600975990295,
+  "processPeakResidentBytes" : 1116291072,
+  "processingWallSeconds" : 13.364330887794495,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.011904761904761904,
+    "characterErrors" : 2,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 168,
+    "referenceWords" : 27,
+    "wordErrorRate" : 0.07407407407407407,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

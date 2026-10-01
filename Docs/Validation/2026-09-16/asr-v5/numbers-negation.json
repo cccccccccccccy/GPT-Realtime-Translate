@@ -1,0 +1,60 @@
+{
+  "audioDuration" : 15.4165,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    3.1499414443969727,
+    1.2813451290130615
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.4399995803833,
+      "id" : "AE1ACC3D-137E-4469-9708-2CA1B9D768FC",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 mm of mercury,",
+      "track" : "remote"
+    },
+    {
+      "end" : 15.119999885559082,
+      "id" : "F7527E9F-0240-4C8B-BE11-7D8E92F6AD69",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 3,
+      "start" : 11.059999942779541,
+      "text" : "not 13. We need histological validation before drawing a conclusion.",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 1.9920979738235474,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811248270.589672,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-overlap-v4-language-detection",
+  "preparationSeconds" : 2.144771933555603,
+  "processPeakResidentBytes" : 769130496,
+  "processingWallSeconds" : 16.401383996009827,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.058823529411764705,
+    "characterErrors" : 12,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 204,
+    "referenceWords" : 39,
+    "wordErrorRate" : 0.05128205128205128,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

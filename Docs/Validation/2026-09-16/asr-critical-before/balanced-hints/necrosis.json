@@ -1,0 +1,1067 @@
+{
+  "audioDuration" : 11.160375,
+  "decodeTraces" : [
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced",
+      "track" : "remote",
+      "windowEnd" : 1.2000000000000002,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.85,
+        0.99,
+        1,
+        0.66
+      ],
+      "words" : [
+        {
+          "end" : 29.920000076293945,
+          "start" : 29.1200008392334,
+          "text" : " I'm"
+        },
+        {
+          "end" : 29.979999542236328,
+          "start" : 29.920000076293945,
+          "text" : " not"
+        },
+        {
+          "end" : 29.979999542236328,
+          "start" : 29.979999542236328,
+          "text" : " entirely"
+        },
+        {
+          "end" : 29.979999542236328,
+          "start" : 29.979999542236328,
+          "text" : " convinced"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging chain",
+      "track" : "remote",
+      "windowEnd" : 2.4,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.88,
+        1,
+        0.99,
+        0.99,
+        0.98,
+        0.99,
+        0.96,
+        0.76
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5600000023841858,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.5600000023841858,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.3799999952316284,
+          "start" : 1.159999966621399,
+          "text" : " chain"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing Nessa",
+      "track" : "remote",
+      "windowEnd" : 3.6,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.95,
+        1,
+        1,
+        0.99,
+        0.98,
+        0.99,
+        0.97,
+        0.98,
+        0.9,
+        1,
+        0.69
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5600000023841858,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8799999952316284,
+          "start" : 0.5600000023841858,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8799999952316284,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6399999856948853,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.8200000524520874,
+          "start" : 1.6399999856948853,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.8200000524520874,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.240000009536743,
+          "start" : 2.0199999809265137,
+          "text" : " Nessa"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent",
+      "track" : "remote",
+      "windowEnd" : 4.8,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.95,
+        1,
+        1,
+        0.99,
+        0.99,
+        1,
+        0.97,
+        0.99,
+        0.96,
+        1,
+        0.99,
+        0.99
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5600000023841858,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.5600000023841858,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.8200000524520874,
+          "start" : 1.6200000047683716,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.8200000524520874,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.0199999809265137,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 3.0399999618530273,
+          "start" : 2.4200000762939453,
+          "text" : " represent"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury.",
+      "track" : "remote",
+      "windowEnd" : 6,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.94,
+        1,
+        1,
+        1,
+        0.99,
+        0.99,
+        0.98,
+        0.99,
+        0.96,
+        1,
+        0.97,
+        0.99,
+        0.66,
+        0.99,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.5799999833106995,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.840000033378601,
+          "start" : 1.6200000047683716,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.840000033378601,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.0199999809265137,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.4200000762939453,
+          "text" : " represent"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.9800000190734863,
+          "text" : " a"
+        },
+        {
+          "end" : 3.359999895095825,
+          "start" : 3.0999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.740000009536743,
+          "start" : 3.359999895095825,
+          "text" : " muscle"
+        },
+        {
+          "end" : 4.079999923706055,
+          "start" : 3.740000009536743,
+          "text" : " injury."
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going",
+      "track" : "remote",
+      "windowEnd" : 7.199999999999999,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.87,
+        1,
+        0.99,
+        0.99,
+        0.97,
+        0.99,
+        0.95,
+        0.97,
+        0.91,
+        0.97,
+        0.74,
+        0.94,
+        0.78,
+        0.99,
+        0.99,
+        1,
+        0.38,
+        0.99,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.5799999833106995,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.8200000524520874,
+          "start" : 1.6200000047683716,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.8200000524520874,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.0199999809265137,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.4200000762939453,
+          "text" : " represent"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.9800000190734863,
+          "text" : " a"
+        },
+        {
+          "end" : 3.359999895095825,
+          "start" : 3.0999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.740000009536743,
+          "start" : 3.359999895095825,
+          "text" : " muscle"
+        },
+        {
+          "end" : 4.139999866485596,
+          "start" : 3.740000009536743,
+          "text" : " injury."
+        },
+        {
+          "end" : 4.519999980926514,
+          "start" : 4.360000133514404,
+          "text" : " How"
+        },
+        {
+          "end" : 4.639999866485596,
+          "start" : 4.519999980926514,
+          "text" : " are"
+        },
+        {
+          "end" : 4.71999979019165,
+          "start" : 4.639999866485596,
+          "text" : " you"
+        },
+        {
+          "end" : 4.860000133514404,
+          "start" : 4.71999979019165,
+          "text" : " going"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible",
+      "track" : "remote",
+      "windowEnd" : 8.4,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.91,
+        1,
+        1,
+        0.99,
+        0.98,
+        0.99,
+        0.95,
+        0.96,
+        0.95,
+        0.99,
+        0.87,
+        0.93,
+        0.94,
+        0.99,
+        0.99,
+        1,
+        0.8,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.84
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5799999833106995,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.5799999833106995,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.8200000524520874,
+          "start" : 1.6200000047683716,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.8200000524520874,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.0199999809265137,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.4200000762939453,
+          "text" : " represent"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.9800000190734863,
+          "text" : " a"
+        },
+        {
+          "end" : 3.359999895095825,
+          "start" : 3.0999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.740000009536743,
+          "start" : 3.359999895095825,
+          "text" : " muscle"
+        },
+        {
+          "end" : 4.139999866485596,
+          "start" : 3.740000009536743,
+          "text" : " injury."
+        },
+        {
+          "end" : 4.559999942779541,
+          "start" : 4.360000133514404,
+          "text" : " How"
+        },
+        {
+          "end" : 4.639999866485596,
+          "start" : 4.559999942779541,
+          "text" : " are"
+        },
+        {
+          "end" : 4.699999809265137,
+          "start" : 4.639999866485596,
+          "text" : " you"
+        },
+        {
+          "end" : 4.860000133514404,
+          "start" : 4.699999809265137,
+          "text" : " going"
+        },
+        {
+          "end" : 4.980000019073486,
+          "start" : 4.860000133514404,
+          "text" : " to"
+        },
+        {
+          "end" : 5.400000095367432,
+          "start" : 4.980000019073486,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.840000152587891,
+          "start" : 5.400000095367432,
+          "text" : " reversible"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes",
+      "track" : "remote",
+      "windowEnd" : 9.6,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.97,
+        1,
+        1,
+        1,
+        0.97,
+        0.99,
+        0.97,
+        0.98,
+        0.95,
+        0.99,
+        0.92,
+        0.97,
+        0.98,
+        0.99,
+        1,
+        1,
+        0.91,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.96,
+        1,
+        0.97
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.5600000023841858,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.5600000023841858,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.8200000524520874,
+          "start" : 1.6200000047683716,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.8200000524520874,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.0199999809265137,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.4200000762939453,
+          "text" : " represent"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.9800000190734863,
+          "text" : " a"
+        },
+        {
+          "end" : 3.359999895095825,
+          "start" : 3.0999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.740000009536743,
+          "start" : 3.359999895095825,
+          "text" : " muscle"
+        },
+        {
+          "end" : 4.139999866485596,
+          "start" : 3.740000009536743,
+          "text" : " injury."
+        },
+        {
+          "end" : 4.559999942779541,
+          "start" : 4.360000133514404,
+          "text" : " How"
+        },
+        {
+          "end" : 4.639999866485596,
+          "start" : 4.559999942779541,
+          "text" : " are"
+        },
+        {
+          "end" : 4.699999809265137,
+          "start" : 4.639999866485596,
+          "text" : " you"
+        },
+        {
+          "end" : 4.860000133514404,
+          "start" : 4.699999809265137,
+          "text" : " going"
+        },
+        {
+          "end" : 4.980000019073486,
+          "start" : 4.860000133514404,
+          "text" : " to"
+        },
+        {
+          "end" : 5.400000095367432,
+          "start" : 4.980000019073486,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.840000152587891,
+          "start" : 5.400000095367432,
+          "text" : " reversible"
+        },
+        {
+          "end" : 6.28000020980835,
+          "start" : 5.840000152587891,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 6.599999904632568,
+          "start" : 6.28000020980835,
+          "text" : " changes"
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 25,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote",
+      "windowEnd" : 11.160375,
+      "windowStart" : 0,
+      "wordScores" : [
+        0.95,
+        1,
+        0.99,
+        0.99,
+        0.98,
+        0.99,
+        0.98,
+        0.99,
+        0.96,
+        1,
+        0.93,
+        0.97,
+        0.99,
+        0.99,
+        1,
+        1,
+        0.44,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        0.82,
+        0.96,
+        0.77,
+        1,
+        0.99,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " I'm"
+        },
+        {
+          "end" : 0,
+          "start" : 0,
+          "text" : " not"
+        },
+        {
+          "end" : 0.18000000715255737,
+          "start" : 0,
+          "text" : " entirely"
+        },
+        {
+          "end" : 0.6000000238418579,
+          "start" : 0.18000000715255737,
+          "text" : " convinced"
+        },
+        {
+          "end" : 0.8399999737739563,
+          "start" : 0.6000000238418579,
+          "text" : " that"
+        },
+        {
+          "end" : 0.9399999976158142,
+          "start" : 0.8399999737739563,
+          "text" : " the"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.9399999976158142,
+          "text" : " imaging"
+        },
+        {
+          "end" : 1.6200000047683716,
+          "start" : 1.159999966621399,
+          "text" : " changes"
+        },
+        {
+          "end" : 1.8600000143051147,
+          "start" : 1.6200000047683716,
+          "text" : " you're"
+        },
+        {
+          "end" : 2.0199999809265137,
+          "start" : 1.8600000143051147,
+          "text" : " seeing"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.0199999809265137,
+          "text" : " necessarily"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.4200000762939453,
+          "text" : " represent"
+        },
+        {
+          "end" : 3.0999999046325684,
+          "start" : 2.9800000190734863,
+          "text" : " a"
+        },
+        {
+          "end" : 3.359999895095825,
+          "start" : 3.0999999046325684,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.740000009536743,
+          "start" : 3.359999895095825,
+          "text" : " muscle"
+        },
+        {
+          "end" : 4.139999866485596,
+          "start" : 3.740000009536743,
+          "text" : " injury."
+        },
+        {
+          "end" : 4.559999942779541,
+          "start" : 4.360000133514404,
+          "text" : " How"
+        },
+        {
+          "end" : 4.639999866485596,
+          "start" : 4.559999942779541,
+          "text" : " are"
+        },
+        {
+          "end" : 4.699999809265137,
+          "start" : 4.639999866485596,
+          "text" : " you"
+        },
+        {
+          "end" : 4.860000133514404,
+          "start" : 4.699999809265137,
+          "text" : " going"
+        },
+        {
+          "end" : 4.980000019073486,
+          "start" : 4.860000133514404,
+          "text" : " to"
+        },
+        {
+          "end" : 5.239999771118164,
+          "start" : 4.980000019073486,
+          "text" : " distinguish"
+        },
+        {
+          "end" : 5.840000152587891,
+          "start" : 5.239999771118164,
+          "text" : " reversible"
+        },
+        {
+          "end" : 6.28000020980835,
+          "start" : 5.840000152587891,
+          "text" : " ischemic"
+        },
+        {
+          "end" : 6.579999923706055,
+          "start" : 6.28000020980835,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.760000228881836,
+          "start" : 6.639999866485596,
+          "text" : " from"
+        },
+        {
+          "end" : 6.980000019073486,
+          "start" : 6.760000228881836,
+          "text" : " actual"
+        },
+        {
+          "end" : 7.639999866485596,
+          "start" : 6.980000019073486,
+          "text" : " necrosis?"
+        }
+      ]
+    }
+  ],
+  "finalDelays" : [
+    5.206136107444763
+  ],
+  "finalSegments" : [
+    {
+      "end" : 7.639999866485596,
+      "id" : "3CB938F3-8028-48FD-AF19-86062C8273FF",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0,
+      "text" : "entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 3.4549559354782104,
+  "fixtureSHA256" : {
+    "audio" : "6c43cb65321316f1463afae6f428c0db3e6c0a79c1fa4e8c5b27590d8921c470",
+    "critical-terms" : "6ea12a7163205838099ff8f8112d39b009f46168971a15bd1dd99601f55936ad",
+    "hint-file" : "999f5747d8e3d7747918dff24c1741004e6a63843b2633a15e2c6c3156d2a7c6",
+    "reference" : "6959e8b93a484a521b9831c586e7c0dd25a4aa11eb54e87341694873cc52181b"
+  },
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811255624.419472,
+  "glossaryConditioning" : true,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-critical-phrase-diagnostics-v2",
+  "preparationSeconds" : 2.4367679357528687,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 799866880,
+  "processingWallSeconds" : 12.846182942390442,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.041666666666666664,
+    "characterErrors" : 7,
+    "checkedCriticalTerms" : [
+      "not entirely convinced",
+      "irreversible muscle injury",
+      "reversible ischemic changes",
+      "actual necrosis"
+    ],
+    "missingCriticalTerms" : [
+      "not entirely convinced",
+      "irreversible muscle injury"
+    ],
+    "referenceCharacters" : 168,
+    "referenceWords" : 27,
+    "wordErrorRate" : 0.14814814814814814,
+    "wordErrors" : 4
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

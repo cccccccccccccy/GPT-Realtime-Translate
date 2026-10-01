@@ -1,0 +1,10 @@
+{
+  "note": "Source hashes after semantic context validation fix; 40 tests passed. Initial live report predates fix; corrected network rerun pending Keychain access.",
+  "sha256": {
+    "Sources/CopilotCore/Intelligence.swift": "faa577e5a5a61bd8aa7fbb1f57ef60578eb6721bc9a4420aaf18c514092c349b",
+    "Sources/CopilotCore/SemanticBenchmark.swift": "fd4265f9e3bee165eae539fe8593db355d0d78d4923dd1009d4dfe787e7b4b39",
+    "Sources/ResearchCopilot/MeetingController.swift": "cda59597d1afdb3a6d8e47a6645635c4d1b24f60bdc64519bcc3c72fa806db7a",
+    "Sources/CopilotDiagnostics/main.swift": "6ad7658250d5cf169517b2c1f0c5482bc29f19bb2ed7b376509bcc3d6a1c659a",
+    "Fixtures/Semantics/cases.json": "1a82ff2e627a4e6aa6bce88e44f73f7cca2dfd4a120d731e76857cbb6808ebda"
+  }
+}

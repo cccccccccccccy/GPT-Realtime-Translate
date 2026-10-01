@@ -1,0 +1,15 @@
+[1/1] Compiling plugin GenerateManual
+[2/2] Compiling plugin GenerateDoccReference
+Building for debugging...
+[2/9] Write sources
+[3/9] Write swift-version--1AB21518FC5DEDBE.txt
+[5/7] Emitting module ResearchCopilotTests
+[6/7] Compiling ResearchCopilotTests LiveMeetingDiagnosticsTests.swift
+[6/8] Write Objects.LinkFileList
+[7/8] Linking ResearchCopilotPackageTests
+Build complete! (2.35s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+➜ Test syntheticLocalSpeechToDeepSeekMeeting() skipped.
+✔ Test run with 1 test in 0 suites passed after 0.001 seconds.

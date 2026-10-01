@@ -1,0 +1,401 @@
+{
+  "audioDuration" : 5.4823125,
+  "decodeTraces" : [
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 1,
+      "text" : "what is the rationale for",
+      "track" : "remote",
+      "windowEnd" : 1.2000000000000002,
+      "windowID" : "4E621E4D-FCE8-4DEF-9BEC-B35E1A72D724",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.45,
+        0.99,
+        0.99,
+        0.96,
+        0.92
+      ],
+      "words" : [
+        {
+          "end" : 0.019999999552965164,
+          "start" : 0.019999999552965164,
+          "text" : " what"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : " is"
+        },
+        {
+          "end" : 0.3199999928474426,
+          "start" : 0.20000000298023224,
+          "text" : " the"
+        },
+        {
+          "end" : 0.800000011920929,
+          "start" : 0.3199999928474426,
+          "text" : " rationale"
+        },
+        {
+          "end" : 1.100000023841858,
+          "start" : 0.800000011920929,
+          "text" : " for"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 2,
+      "text" : "What is the rationale for selecting this time point?",
+      "track" : "remote",
+      "windowEnd" : 2.4,
+      "windowID" : "4E621E4D-FCE8-4DEF-9BEC-B35E1A72D724",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.71,
+        1,
+        1,
+        0.89,
+        0.99,
+        1,
+        0.99,
+        0.97,
+        0.72
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " What"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.05999999865889549,
+          "text" : " is"
+        },
+        {
+          "end" : 0.36000001430511475,
+          "start" : 0.20000000298023224,
+          "text" : " the"
+        },
+        {
+          "end" : 0.800000011920929,
+          "start" : 0.36000001430511475,
+          "text" : " rationale"
+        },
+        {
+          "end" : 1.100000023841858,
+          "start" : 0.800000011920929,
+          "text" : " for"
+        },
+        {
+          "end" : 1.3600000143051147,
+          "start" : 1.100000023841858,
+          "text" : " selecting"
+        },
+        {
+          "end" : 1.7599999904632568,
+          "start" : 1.3600000143051147,
+          "text" : " this"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7599999904632568,
+          "text" : " time"
+        },
+        {
+          "end" : 2.380000114440918,
+          "start" : 2.059999942779541,
+          "text" : " point?"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 3,
+      "text" : "What is the rationale for selecting this time point, and how do you play?",
+      "track" : "remote",
+      "windowEnd" : 3.6,
+      "windowID" : "4E621E4D-FCE8-4DEF-9BEC-B35E1A72D724",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.56,
+        1,
+        1,
+        0.88,
+        0.99,
+        1,
+        0.98,
+        0.95,
+        0.93,
+        0.84,
+        0.97,
+        0.99,
+        0.99,
+        0.34
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " What"
+        },
+        {
+          "end" : 0.2199999988079071,
+          "start" : 0.05999999865889549,
+          "text" : " is"
+        },
+        {
+          "end" : 0.36000001430511475,
+          "start" : 0.2199999988079071,
+          "text" : " the"
+        },
+        {
+          "end" : 0.800000011920929,
+          "start" : 0.36000001430511475,
+          "text" : " rationale"
+        },
+        {
+          "end" : 1.100000023841858,
+          "start" : 0.800000011920929,
+          "text" : " for"
+        },
+        {
+          "end" : 1.3600000143051147,
+          "start" : 1.100000023841858,
+          "text" : " selecting"
+        },
+        {
+          "end" : 1.7599999904632568,
+          "start" : 1.3600000143051147,
+          "text" : " this"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7599999904632568,
+          "text" : " time"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.059999942779541,
+          "text" : " point,"
+        },
+        {
+          "end" : 2.8399999141693115,
+          "start" : 2.5799999237060547,
+          "text" : " and"
+        },
+        {
+          "end" : 3.0199999809265137,
+          "start" : 2.8399999141693115,
+          "text" : " how"
+        },
+        {
+          "end" : 3.200000047683716,
+          "start" : 3.0199999809265137,
+          "text" : " do"
+        },
+        {
+          "end" : 3.440000057220459,
+          "start" : 3.200000047683716,
+          "text" : " you"
+        },
+        {
+          "end" : 3.619999885559082,
+          "start" : 3.440000057220459,
+          "text" : " play?"
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 5,
+      "text" : "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+      "track" : "remote",
+      "windowEnd" : 5.4823125,
+      "windowID" : "4E621E4D-FCE8-4DEF-9BEC-B35E1A72D724",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.75,
+        1,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        0.99,
+        0.96,
+        0.77,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " What"
+        },
+        {
+          "end" : 0.2199999988079071,
+          "start" : 0.05999999865889549,
+          "text" : " is"
+        },
+        {
+          "end" : 0.36000001430511475,
+          "start" : 0.2199999988079071,
+          "text" : " the"
+        },
+        {
+          "end" : 0.800000011920929,
+          "start" : 0.36000001430511475,
+          "text" : " rationale"
+        },
+        {
+          "end" : 1.100000023841858,
+          "start" : 0.800000011920929,
+          "text" : " for"
+        },
+        {
+          "end" : 1.3600000143051147,
+          "start" : 1.100000023841858,
+          "text" : " selecting"
+        },
+        {
+          "end" : 1.7599999904632568,
+          "start" : 1.3600000143051147,
+          "text" : " this"
+        },
+        {
+          "end" : 2.059999942779541,
+          "start" : 1.7599999904632568,
+          "text" : " time"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.059999942779541,
+          "text" : " point,"
+        },
+        {
+          "end" : 2.8399999141693115,
+          "start" : 2.5799999237060547,
+          "text" : " and"
+        },
+        {
+          "end" : 3,
+          "start" : 2.8399999141693115,
+          "text" : " how"
+        },
+        {
+          "end" : 3.200000047683716,
+          "start" : 3,
+          "text" : " do"
+        },
+        {
+          "end" : 3.4200000762939453,
+          "start" : 3.200000047683716,
+          "text" : " you"
+        },
+        {
+          "end" : 3.7200000286102295,
+          "start" : 3.4200000762939453,
+          "text" : " plan"
+        },
+        {
+          "end" : 3.880000114440918,
+          "start" : 3.7200000286102295,
+          "text" : " to"
+        },
+        {
+          "end" : 4.179999828338623,
+          "start" : 3.880000114440918,
+          "text" : " validate"
+        },
+        {
+          "end" : 4.5,
+          "start" : 4.179999828338623,
+          "text" : " it"
+        },
+        {
+          "end" : 5.039999961853027,
+          "start" : 4.5,
+          "text" : " histologically?"
+        }
+      ]
+    }
+  ],
+  "finalDelays" : [
+    3.6006879806518555
+  ],
+  "finalSegments" : [
+    {
+      "end" : 5.039999961853027,
+      "id" : "4E621E4D-FCE8-4DEF-9BEC-B35E1A72D724",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 5,
+      "start" : 0.019999999552965164,
+      "text" : "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 2.6904540061950684,
+  "fixtureSHA256" : {
+    "audio" : "5a13a2492ab060f82409ef830db812558dc22b37f5ad65a18229744871161e66",
+    "critical-terms" : "9866c12af678d14a1030ae196c45079b7a08b96a0cbb8a201b578734c9f8f297",
+    "reference" : "95c14abc14146ed74626c7edd76b5d97886df418a347dbec3d539229384090d3"
+  },
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811258149.129411,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3_947MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-untimed-word-groups-v3",
+  "preparationSeconds" : 2.5408109426498413,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/ResourceIntegrity\/7f3e3f3804bd9505a06b4c95d54ea2eb66cee7e1f75ebeafa97bce08bd66e945.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3_947MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 552058880,
+  "processingWallSeconds" : 8.640748023986816,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "checkedCriticalTerms" : [
+      "rationale",
+      "time point",
+      "validate it histologically"
+    ],
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 84,
+    "referenceWords" : 18,
+    "wordErrorRate" : 0,
+    "wordErrors" : 0
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

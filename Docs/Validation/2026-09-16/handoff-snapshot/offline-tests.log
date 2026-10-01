@@ -1,0 +1,409 @@
+[1/1] Compiling plugin GenerateManual
+[2/2] Compiling plugin GenerateDoccReference
+Building for debugging...
+[2/9] Write sources
+[3/9] Write swift-version--1AB21518FC5DEDBE.txt
+[5/7] Emitting module ResearchCopilotTests
+[6/7] Compiling ResearchCopilotTests LiveMeetingDiagnosticsTests.swift
+[6/8] Write Objects.LinkFileList
+[7/8] Linking ResearchCopilotPackageTests
+Build complete! (2.22s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test stoppingDuringHandshakeClosesItWithoutPublishingReady() started.
+◇ Suite AudioCaptureTests started.
+◇ Test cancelledPreparationCannotBecomeReadyOrStartRecognition() started.
+◇ Test activeVADItemCanBecomeADifferentManualCommitItemOnStop() started.
+◇ Test offlinePreparationRejectsMissingAndMalformedTokenizersBeforeModelLoading() started.
+◇ Test cancellationAtPreparationProgressDoesNotFallThroughToDownload() started.
+◇ Test localModelMetadataSelectsVocabularyFamilyAndRejectsUnknownShapes() started.
+◇ Test shutdownWaitsForFinalAndMarksUnconfirmedTailAtDeadline() started.
+◇ Test partialSpeechCannotBecomeSummaryEvidenceAndEmptyAssignmentsStayUnknown() started.
+◇ Test incompleteBundledTokenizerIsNotSilentlyReplacedByCachedResources() started.
+◇ Test realtimeCompletionsUseItemTimingDespiteReordering() started.
+◇ Test transcriptionConfigurationDoesNotApplyParametersToUnadaptedModels() started.
+◇ Test reconnectBudgetIsFiniteAndStoppingCancelsFurtherRecovery() started.
+◇ Test overlapIsRemovedButRealRepetitionsRemain() started.
+◇ Test reconnectUsesNewTimelineAndDoesNotReplayOrChangeProvider() started.
+◇ Test oneTrackFailureDoesNotCloseTheOtherTrack() started.
+◇ Test noAudioFinishesWithoutAnEmptyCommitAndPCMIsBounded() started.
+◇ Test promptRowsAreRemovedWithoutChangingTokenAudioAlignment() started.
+◇ Test evidenceSnapshotsRoundTripAndOlderAnswersRemainReadable() started.
+◇ Test voiceFinalizesAfterSilenceAndKeepsTrackIdentity() started.
+◇ Test lateUpdatesCannotOverwriteFinalOrCorrections() started.
+◇ Test cloudCommittedOrderAndManualItemReplacementKeepCaptureTiming() started.
+◇ Test emptyShutdownCommitDoesNotLoseAnOlderDelayedTranscript() started.
+◇ Test aCachedDownloadMustMatchTheRequestedCommit() started.
+◇ Test openingCurrentHistoryRowReloadsAfterSaving() started.
+◇ Test overlappingSavesCommitInOrder() started.
+◇ Test semanticDraftsCannotMasqueradeAsReviewedAcceptance() started.
+◇ Test streamedDraftHandlesIncompleteEscapesWithoutClaimingCompletion() started.
+◇ Test analysisCanCiteItsActualContextButNotInventedOrUnselectedSpeech() started.
+◇ Test correctionsInvalidatePinnedSuggestionsWithoutChangingTheirContent() started.
+◇ Test tokenizerTamperingIsDetectedWithoutWritingInsideImportedModel() started.
+◇ Test semanticMetricsExposeFailuresAndSeparateDraftsFromHoldout() started.
+◇ Test cloudEventsValidateTimingAndRetainOnlySafeErrorMetadata() started.
+◇ Test titleEditsAreAutosavedWithoutAnotherTranscriptEvent() started.
+◇ Test audioQueueOverloadCreatesAGapInsteadOfUnboundedBuffering() started.
+◇ Test actualDeepSeekContextResponsesPassTheCorrectedEvidenceCheck() started.
+◇ Test corruptHistoryFileDoesNotHideHealthyEncryptedMeetings() started.
+◇ Test terminationWaitsForSavedSnapshot() started.
+◇ Test promptsAndSummariesDoNotTreatAISuggestionsAsActualSpeech() started.
+➜ Test syntheticLocalSpeechToDeepSeekMeeting() skipped.
+◇ Test truncatedCompletionIsNeverReady() started.
+◇ Test deletionWaitsForPendingWriteAndDoesNotResurrectRecord() started.
+◇ Test missingRepositoryCannotReportSuccessfulSave() started.
+◇ Test inFlightSaveDoesNotMarkNewerEditsAsSaved() started.
+◇ Test untimedWordsFollowTheirAnchorAcrossOverlapWithoutDuplication() started.
+◇ Test outOfOrderSegmentsFollowAudioTimeline() started.
+◇ Test deletionFailurePreservesCurrentRecordAndCanBeRetried() started.
+◇ Test partialRevisionsDoNotAdvanceCommittedAudioAndTracksAreIndependent() started.
+◇ Test excessiveSSEEventsAreBounded() started.
+◇ Test completedChatAndResponsesAreParsedSeparately() started.
+◇ Test encryptedRepositoryRoundTripsAndRejectsTampering() started.
+◇ Test credentialsAreBoundToEndpoint() started.
+◇ Test encryptedHistoryPreservesPinnedAnswersCorrectionsAndExportSeparation() started.
+◇ Test storageInitializationCanRecoverAfterFailure() started.
+◇ Test providerUsesCorrectProtocolAndNeverStoresOpenAIResponses() started.
+◇ Test reviewEvidenceExcludesGlossaryAndUnconfirmedStudyMaterial() started.
+◇ Test answerReviewFailsClosedOnRejectionOrContradictoryVerdict() started.
+◇ Test saveFailureKeepsCurrentMeetingDuringNavigationAndQuit() started.
+◇ Test criticalPhrasesDoNotMatchOppositePrefixesOrOtherNumbers() started.
+◇ Test silenceDoesNotCreateTranscriptWindows() started.
+◇ Test longSpeechKeepsAudioAcrossBoundary() started.
+◇ Test cancelledSemanticBenchmarkMakesNoRequests() started.
+◇ Test emptyOrInvalidDecoderResultsAreDistinctFromAnAlreadyCommittedOverlap() started.
+◇ Test decodedNegationWithZeroDurationIsPreservedWithItsTimedNeighbor() started.
+◇ Test cloudFinalsKeepSpeechEndDespiteLaterAudioAndDuplicateDeltas() started.
+◇ Test historicalMetricsDistinguishUncheckedCriticalTerms() started.
+◇ Test semanticReplayUsesCurrentFinalsAndDoesNotLeakLabels() started.
+◇ Test citationNavigationSelectsExactSourceAndDoesNotGenerateAnswers() started.
+◇ Test diagnosticsRetainFailuresAndStillExerciseSubsequentTasks() started.
+◇ Test sseHandlesUTF8CRLFAndMultipleDataLines() started.
+◇ Test emptyReferenceDoesNotProduceFalsePerfectMetric() started.
+◇ Test exportedCitationsHaveLocalAnchorsAndRetainOldEvidence() started.
+◇ Test recognitionMetricsCountSubstitutionDeletionAndInsertion() started.
+◇ Test citationsDistinguishChangedMissingAndLegacySources() started.
+◇ Test inventedNumbersAndUnconfirmedFactReferencesAreRejected() started.
+◇ Test queueCoalescesPartialAndReportsOverflow() started.
+2026-09-16 22:25:48.421 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+◇ Test probeMeasuresSoundRejectsInvalidFramesAndFreezesOnFinish() started.
+◇ Test gateClosesMicrophoneAndThenAllFrames() started.
+◇ Test sleepWhileCaptureStartsCleansUpBeforeReportingRecording() started.
+◇ Test stopDuringStartupEndsProbeOnceStartupReturns() started.
+◇ Test environmentEventsMatchOnlyTheSelectedSources() started.
+◇ Test probeNeverStartsASROrCreatesMeeting() started.
+◇ Test oldStreamInterruptionCannotStopTheNextMeeting() started.
+◇ Test sleepWhileSpeechStartsPreventsAudioStartup() started.
+◇ Test failedStopBlocksRestartUntilRetrySucceeds() started.
+◇ Test processObservationCanBeReleasedRepeatedly() started.
+◇ Test classifiesOnlyKnownScreenCaptureErrors() started.
+◇ Test recordingSleepPersistsGapAndFailedStopStillBlocksRestart() started.
+◇ Test sleepDuringProbeStartupClosesHandoffAndNeverResumes() started.
+◇ Test interruptionClosesDeliveryOnceAndIgnoresDisabledMicrophone() started.
+✔ Test partialSpeechCannotBecomeSummaryEvidenceAndEmptyAssignmentsStayUnknown() passed after 0.012 seconds.
+✔ Test realtimeCompletionsUseItemTimingDespiteReordering() passed after 0.012 seconds.
+✔ Test overlapIsRemovedButRealRepetitionsRemain() passed after 0.012 seconds.
+✔ Test promptRowsAreRemovedWithoutChangingTokenAudioAlignment() passed after 0.012 seconds.
+✔ Test transcriptionConfigurationDoesNotApplyParametersToUnadaptedModels() passed after 0.012 seconds.
+✔ Test lateUpdatesCannotOverwriteFinalOrCorrections() passed after 0.012 seconds.
+✔ Test voiceFinalizesAfterSilenceAndKeepsTrackIdentity() passed after 0.012 seconds.
+✔ Test correctionsInvalidatePinnedSuggestionsWithoutChangingTheirContent() passed after 0.012 seconds.
+✔ Test cloudCommittedOrderAndManualItemReplacementKeepCaptureTiming() passed after 0.012 seconds.
+✔ Test evidenceSnapshotsRoundTripAndOlderAnswersRemainReadable() passed after 0.012 seconds.
+✔ Test cloudEventsValidateTimingAndRetainOnlySafeErrorMetadata() passed after 0.012 seconds.
+✔ Test streamedDraftHandlesIncompleteEscapesWithoutClaimingCompletion() passed after 0.012 seconds.
+✔ Test incompleteBundledTokenizerIsNotSilentlyReplacedByCachedResources() passed after 0.012 seconds.
+✔ Test untimedWordsFollowTheirAnchorAcrossOverlapWithoutDuplication() passed after 0.012 seconds.
+✔ Test partialRevisionsDoNotAdvanceCommittedAudioAndTracksAreIndependent() passed after 0.012 seconds.
+✔ Test outOfOrderSegmentsFollowAudioTimeline() passed after 0.012 seconds.
+✔ Test excessiveSSEEventsAreBounded() passed after 0.012 seconds.
+✔ Test completedChatAndResponsesAreParsedSeparately() passed after 0.012 seconds.
+✔ Test promptsAndSummariesDoNotTreatAISuggestionsAsActualSpeech() passed after 0.012 seconds.
+✔ Test analysisCanCiteItsActualContextButNotInventedOrUnselectedSpeech() passed after 0.012 seconds.
+✔ Test truncatedCompletionIsNeverReady() passed after 0.012 seconds.
+✔ Test credentialsAreBoundToEndpoint() passed after 0.012 seconds.
+✔ Test answerReviewFailsClosedOnRejectionOrContradictoryVerdict() passed after 0.012 seconds.
+✔ Test providerUsesCorrectProtocolAndNeverStoresOpenAIResponses() passed after 0.012 seconds.
+✔ Test reviewEvidenceExcludesGlossaryAndUnconfirmedStudyMaterial() passed after 0.012 seconds.
+✔ Test longSpeechKeepsAudioAcrossBoundary() passed after 0.012 seconds.
+✔ Test emptyOrInvalidDecoderResultsAreDistinctFromAnAlreadyCommittedOverlap() passed after 0.012 seconds.
+✔ Test semanticMetricsExposeFailuresAndSeparateDraftsFromHoldout() passed after 0.012 seconds.
+✔ Test actualDeepSeekContextResponsesPassTheCorrectedEvidenceCheck() passed after 0.012 seconds.
+✔ Test localModelMetadataSelectsVocabularyFamilyAndRejectsUnknownShapes() passed after 0.012 seconds.
+✔ Test cloudFinalsKeepSpeechEndDespiteLaterAudioAndDuplicateDeltas() passed after 0.012 seconds.
+✔ Test semanticDraftsCannotMasqueradeAsReviewedAcceptance() passed after 0.012 seconds.
+✔ Test sseHandlesUTF8CRLFAndMultipleDataLines() passed after 0.012 seconds.
+✔ Test diagnosticsRetainFailuresAndStillExerciseSubsequentTasks() passed after 0.012 seconds.
+✔ Test emptyReferenceDoesNotProduceFalsePerfectMetric() passed after 0.012 seconds.
+✔ Test encryptedRepositoryRoundTripsAndRejectsTampering() passed after 0.012 seconds.
+✔ Test decodedNegationWithZeroDurationIsPreservedWithItsTimedNeighbor() passed after 0.012 seconds.
+✔ Test historicalMetricsDistinguishUncheckedCriticalTerms() passed after 0.012 seconds.
+✔ Test citationsDistinguishChangedMissingAndLegacySources() passed after 0.012 seconds.
+✔ Test tokenizerTamperingIsDetectedWithoutWritingInsideImportedModel() passed after 0.013 seconds.
+✔ Test queueCoalescesPartialAndReportsOverflow() passed after 0.012 seconds.
+✔ Test exportedCitationsHaveLocalAnchorsAndRetainOldEvidence() passed after 0.012 seconds.
+✔ Test probeMeasuresSoundRejectsInvalidFramesAndFreezesOnFinish() passed after 0.003 seconds.
+✔ Test environmentEventsMatchOnlyTheSelectedSources() passed after 0.003 seconds.
+✔ Test gateClosesMicrophoneAndThenAllFrames() passed after 0.003 seconds.
+✔ Test inventedNumbersAndUnconfirmedFactReferencesAreRejected() passed after 0.012 seconds.
+✔ Test recognitionMetricsCountSubstitutionDeletionAndInsertion() passed after 0.012 seconds.
+✔ Test interruptionClosesDeliveryOnceAndIgnoresDisabledMicrophone() passed after 0.001 seconds.
+✔ Test classifiesOnlyKnownScreenCaptureErrors() passed after 0.001 seconds.
+✔ Test cancelledPreparationCannotBecomeReadyOrStartRecognition() passed after 0.014 seconds.
+✔ Test cancellationAtPreparationProgressDoesNotFallThroughToDownload() passed after 0.014 seconds.
+✔ Test aCachedDownloadMustMatchTheRequestedCommit() passed after 0.014 seconds.
+✔ Test noAudioFinishesWithoutAnEmptyCommitAndPCMIsBounded() passed after 0.014 seconds.
+✔ Test cancelledSemanticBenchmarkMakesNoRequests() passed after 0.013 seconds.
+✔ Test audioQueueOverloadCreatesAGapInsteadOfUnboundedBuffering() passed after 0.014 seconds.
+✔ Test stoppingDuringHandshakeClosesItWithoutPublishingReady() passed after 0.014 seconds.
+✔ Test criticalPhrasesDoNotMatchOppositePrefixesOrOtherNumbers() passed after 0.013 seconds.
+✔ Test offlinePreparationRejectsMissingAndMalformedTokenizersBeforeModelLoading() passed after 0.014 seconds.
+2026-09-16 22:25:48.426 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+✔ Test missingRepositoryCannotReportSuccessfulSave() passed after 0.014 seconds.
+✔ Test semanticReplayUsesCurrentFinalsAndDoesNotLeakLabels() passed after 0.014 seconds.
+2026-09-16 22:25:48.427 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+✔ Test silenceDoesNotCreateTranscriptWindows() passed after 0.015 seconds.
+✔ Test citationNavigationSelectsExactSourceAndDoesNotGenerateAnswers() passed after 0.016 seconds.
+2026-09-16 22:25:48.429 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.430 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.430 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+✔ Test probeNeverStartsASROrCreatesMeeting() passed after 0.013 seconds.
+2026-09-16 22:25:48.435 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.436 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+✔ Test failedStopBlocksRestartUntilRetrySucceeds() passed after 0.015 seconds.
+2026-09-16 22:25:48.438 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.438 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.439 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.440 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.441 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.442 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.443 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.444 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.445 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.446 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.447 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.448 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.449 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.450 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.451 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.451 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.451 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.451 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+2026-09-16 22:25:48.451 swiftpm-testing-helper[93514:74531287] _LSModifyNotification(result->notificationID, keyCount, codesToSet, 0, NULL, NULL, NULL) returned error -50 on line 280 in NotificationTracker *createTrackerForMask(KeyMask, id, CFTypeRef)
+2026-09-16 22:25:48.451 swiftpm-testing-helper[93514:74531287] _LSUnscheduleNotificationFunction(tracker->notificationID) returned error -13056 on line 290 in void teardownTrackerForMask(KeyMask, NotificationTracker *)
+✔ Test processObservationCanBeReleasedRepeatedly() passed after 0.028 seconds.
+2026-09-16 22:25:48.452 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.454 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.455 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.456 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.456 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.457 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.458 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+2026-09-16 22:25:48.458 swiftpm-testing-helper[93514:74531287] IOPMScheduleUserActivityLevelNotification returned 0
+✔ Test stopDuringStartupEndsProbeOnceStartupReturns() passed after 0.040 seconds.
+✔ Test storageInitializationCanRecoverAfterFailure() passed after 0.050 seconds.
+✔ Test sleepDuringProbeStartupClosesHandoffAndNeverResumes() passed after 0.039 seconds.
+✔ Test openingCurrentHistoryRowReloadsAfterSaving() passed after 0.051 seconds.
+✔ Test recordingSleepPersistsGapAndFailedStopStillBlocksRestart() passed after 0.039 seconds.
+✔ Test deletionFailurePreservesCurrentRecordAndCanBeRetried() passed after 0.051 seconds.
+✔ Test saveFailureKeepsCurrentMeetingDuringNavigationAndQuit() passed after 0.051 seconds.
+✔ Test encryptedHistoryPreservesPinnedAnswersCorrectionsAndExportSeparation() passed after 0.052 seconds.
+✔ Test overlappingSavesCommitInOrder() passed after 0.052 seconds.
+✔ Test sleepWhileCaptureStartsCleansUpBeforeReportingRecording() passed after 0.044 seconds.
+✔ Test sleepWhileSpeechStartsPreventsAudioStartup() passed after 0.045 seconds.
+✔ Test terminationWaitsForSavedSnapshot() passed after 0.057 seconds.
+✔ Test inFlightSaveDoesNotMarkNewerEditsAsSaved() passed after 0.056 seconds.
+✔ Test deletionWaitsForPendingWriteAndDoesNotResurrectRecord() passed after 0.057 seconds.
+✔ Test oldStreamInterruptionCannotStopTheNextMeeting() passed after 0.046 seconds.
+✔ Suite AudioCaptureTests passed after 0.057 seconds.
+✔ Test emptyShutdownCommitDoesNotLoseAnOlderDelayedTranscript() passed after 0.058 seconds.
+✔ Test activeVADItemCanBecomeADifferentManualCommitItemOnStop() passed after 0.065 seconds.
+✔ Test reconnectUsesNewTimelineAndDoesNotReplayOrChangeProvider() passed after 0.071 seconds.
+✔ Test oneTrackFailureDoesNotCloseTheOtherTrack() passed after 0.080 seconds.
+✔ Test reconnectBudgetIsFiniteAndStoppingCancelsFurtherRecovery() passed after 0.083 seconds.
+✔ Test shutdownWaitsForFinalAndMarksUnconfirmedTailAtDeadline() passed after 0.421 seconds.
+✔ Test titleEditsAreAutosavedWithoutAnotherTranscriptEvent() passed after 0.557 seconds.
+✔ Test corruptHistoryFileDoesNotHideHealthyEncryptedMeetings() passed after 0.572 seconds.
+✔ Test run with 89 tests in 1 suite passed after 0.573 seconds.

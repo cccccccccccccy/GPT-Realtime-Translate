@@ -1,0 +1,68 @@
+{
+  "testsPassed": 88,
+  "binarySHA256": "70c03209a996b49d9aa67842ccdbb41852c1ddf0bdc16e305b0e1776d7ad9184",
+  "scope": "Local empty Zoom source; microphone and cloud off. No speech or real meeting quality claim.",
+  "nativeChecks": {
+    "manualStop": true,
+    "selectedZoomTermination": true,
+    "automatic30SecondStop": true,
+    "noZoomStartRejected": true,
+    "ZoomReopenedAndManuallyReselected": true
+  },
+  "reports": {
+    "manual-stop": {
+      "file": "Docs/Validation/2026-09-16/zoom-audio/zoom-environment-manual-stop.json",
+      "sha256": "6811e3b4e0654ccbd79d480047d061c84f11758331d6ee1977d38f4cad75f588",
+      "audioSeconds": 8.219625,
+      "frames": 411,
+      "issues": []
+    },
+    "terminated": {
+      "file": "Docs/Validation/2026-09-16/zoom-audio/zoom-environment-terminated.json",
+      "sha256": "e0599f792766032cbe5163a427eac7efff02794947aabf73def724153eabfe06",
+      "audioSeconds": 8.699625,
+      "frames": 435,
+      "issues": [
+        "所选 Zoom 已退出，音频捕获中断。重新打开 Zoom 后请刷新音源并手动开始。"
+      ]
+    },
+    "auto-stop": {
+      "file": "Docs/Validation/2026-09-16/zoom-audio/zoom-environment-auto-stop.json",
+      "sha256": "c2795b3bb3e082cebc2050684e6fca567427301ea167f196f358c4e2a7ef33ae",
+      "audioSeconds": 30.039625,
+      "frames": 1502,
+      "issues": []
+    }
+  },
+  "sourceSHA256": {
+    "Sources/ResearchCopilot/AudioCaptureService.swift": "d814c293616c0e72cd9770a16b4fa7d2f19df43524fe9380be44319b93e5921e",
+    "Sources/ResearchCopilot/CaptureEnvironmentMonitor.swift": "5b2ba4fe352bea5cbd93094ed05fce2ce344b605ec8f056b0b52bc2ab2be3e1e",
+    "Sources/ResearchCopilot/AudioSourceProbe.swift": "49894c1c1a1dcaca64516bd07f584f0e3917c591a9467adbf6192fdc76fb8f45",
+    "Sources/ResearchCopilot/MeetingController.swift": "c8b62b181fd41838b1cef50e0d457378d461f019b5486114cec89bcad5024315",
+    "Sources/ResearchCopilot/CaptureReadiness.swift": "13a0e735e1cd982d920d50c471bf7c621e27a848053fd4bbc4a4a54d0cbfba72",
+    "Sources/ResearchCopilot/SpeechSessionStarter.swift": "190c742e240fec7ed4222ef067859736c03558664001936e5c2d3c27efb6c8e8",
+    "Sources/ResearchCopilot/SettingsView.swift": "a3154b7ead6f70ad13a06a64774a994eb148fd59e9659b6c4ea7876adacc55f0",
+    "Sources/ResearchCopilot/ResearchCopilotApp.swift": "916b7523ba7ac1bbade131b65c1de36abc4cacf0ea9c06f7e1a2515b205e4d97",
+    "Tests/ResearchCopilotTests/AudioCaptureTests.swift": "6eb9044e651eb81b434aa0543bdd911db6d23d0d6a28519434ba06c63d10d9d1"
+  },
+  "artifactSHA256": {
+    "initial-kvo-teardown-failure.json": "1a663cce181bb4c9aa5b61ac4722420dc52876e571f02f67be6301e998764058",
+    "tests.log": "83b37391be37562546396a8129dedff5f6f692d8998508f6ae40c65bf9ba7bde",
+    "build.log": "10555ad3a46e4a61cfea4ce6e2101a63a16a6d81be51c091adf95be21793a12c"
+  },
+  "unverified": [
+    "Physical sleep/wake",
+    "Microphone device switch/disconnection",
+    "Real permission revocation",
+    "Hardware stop failure",
+    "Real dual-track meeting and 90-minute soak"
+  ],
+  "finalUI": {
+    "idle": true,
+    "defaultLocalModelReady": true,
+    "screenPermissionAllowed": true,
+    "microphoneEnabled": false,
+    "cloudTextEnabled": false,
+    "modelReadyGuidanceVisible": true
+  }
+}

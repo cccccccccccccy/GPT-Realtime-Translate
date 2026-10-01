@@ -1,0 +1,306 @@
+{
+  "scope": "Synthetic development comparison; literal phrase checks, not semantic or meeting acceptance",
+  "singleTrackTotals": {
+    "baseline": {
+      "referenceWords": 160,
+      "wordErrors": 6,
+      "checkedCriticalPhrases": 23,
+      "missingCriticalPhrases": 2,
+      "gaps": 0,
+      "wordErrorRate": 0.0375,
+      "literalPhrasePreservationRate": 0.9130434782608696
+    },
+    "balanced-hints": {
+      "referenceWords": 160,
+      "wordErrors": 9,
+      "checkedCriticalPhrases": 23,
+      "missingCriticalPhrases": 2,
+      "gaps": 0,
+      "wordErrorRate": 0.05625,
+      "literalPhrasePreservationRate": 0.9130434782608696
+    }
+  },
+  "cases": [
+    {
+      "case": "timepoint",
+      "baseline": {
+        "wordErrorRate": 0,
+        "criticalPhrases": 3,
+        "missingCriticalPhrases": [],
+        "text": "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+        "firstPartialSeconds": 2.005429983139038,
+        "finalDelays": [
+          1.5843892097473145
+        ],
+        "peakRSSMiB": 932.734375,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0,
+        "criticalPhrases": 3,
+        "missingCriticalPhrases": [],
+        "text": "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+        "firstPartialSeconds": 4.467604041099548,
+        "finalDelays": [
+          4.752807021141052
+        ],
+        "peakRSSMiB": 724.9375,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          25
+        ]
+      }
+    },
+    {
+      "case": "necrosis",
+      "baseline": {
+        "wordErrorRate": 0.07407407407407407,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [
+          "irreversible muscle injury"
+        ],
+        "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+        "firstPartialSeconds": 2.0192019939422607,
+        "finalDelays": [
+          2.7376813888549805
+        ],
+        "peakRSSMiB": 790.828125,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0.07407407407407407,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [
+          "irreversible muscle injury"
+        ],
+        "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+        "firstPartialSeconds": 3.508096933364868,
+        "finalDelays": [
+          6.5970470905303955
+        ],
+        "peakRSSMiB": 780.671875,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          25
+        ]
+      }
+    },
+    {
+      "case": "numbers-negation",
+      "baseline": {
+        "wordErrorRate": 0.05128205128205128,
+        "criticalPhrases": 5,
+        "missingCriticalPhrases": [],
+        "text": "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 mm of mercury, not 13. We need histological validation before drawing a conclusion.",
+        "firstPartialSeconds": 2.0447540283203125,
+        "finalDelays": [
+          4.203508496284485,
+          2.0466521978378296
+        ],
+        "peakRSSMiB": 764.46875,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0.1282051282051282,
+        "criticalPhrases": 5,
+        "missingCriticalPhrases": [],
+        "text": "there were 6 animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 mm of mercury, not 13. of mercury, not 13. We need histological validation before drawing a conclusion.",
+        "firstPartialSeconds": 2.2662609815597534,
+        "finalDelays": [
+          7.596337080001831,
+          3.7640610933303833
+        ],
+        "peakRSSMiB": 752.359375,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          25
+        ]
+      }
+    },
+    {
+      "case": "reversible-control",
+      "baseline": {
+        "wordErrorRate": 0.07692307692307693,
+        "criticalPhrases": 3,
+        "missingCriticalPhrases": [
+          "not established irreversible necrosis"
+        ],
+        "text": "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemic changes from tissue death before making that claim.",
+        "firstPartialSeconds": 2.2860260009765625,
+        "finalDelays": [
+          3.7278369665145874
+        ],
+        "peakRSSMiB": 758.859375,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0.07692307692307693,
+        "criticalPhrases": 3,
+        "missingCriticalPhrases": [
+          "not established irreversible necrosis"
+        ],
+        "text": "The imaging changes may represent reversible muscle injury. We have not established a reversible necrosis. Please distinguish reversible ischemic changes from tissue death before making that claim.",
+        "firstPartialSeconds": 2.5281471014022827,
+        "finalDelays": [
+          6.313928127288818
+        ],
+        "peakRSSMiB": 774.03125,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          25
+        ]
+      }
+    },
+    {
+      "case": "irreversible-control",
+      "baseline": {
+        "wordErrorRate": 0,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [],
+        "text": "The tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes alone do not establish necrosis. Histological validation is still required.",
+        "firstPartialSeconds": 2.038702964782715,
+        "finalDelays": [
+          3.336971163749695
+        ],
+        "peakRSSMiB": 772.828125,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [],
+        "text": "The tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes alone do not establish necrosis. Histological validation is still required.",
+        "firstPartialSeconds": 2.33992600440979,
+        "finalDelays": [
+          6.303792953491211
+        ],
+        "peakRSSMiB": 769.328125,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          25
+        ]
+      }
+    },
+    {
+      "case": "necrosis-samantha",
+      "baseline": {
+        "wordErrorRate": 0,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [],
+        "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent irreversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+        "firstPartialSeconds": 1.9789760112762451,
+        "finalDelays": [
+          2.8751678466796875
+        ],
+        "peakRSSMiB": 760.328125,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [],
+        "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent irreversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+        "firstPartialSeconds": 3.4520130157470703,
+        "finalDelays": [
+          6.708536148071289
+        ],
+        "peakRSSMiB": 790.515625,
+        "gaps": [],
+        "microphoneCER": null,
+        "promptTokenCounts": [
+          25
+        ]
+      }
+    },
+    {
+      "case": "dual-english-chinese",
+      "baseline": {
+        "wordErrorRate": 0.07407407407407407,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [
+          "irreversible muscle injury"
+        ],
+        "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+        "firstPartialSeconds": 2.0495660305023193,
+        "finalDelays": [
+          4.873507380485535,
+          3.1907670497894287,
+          8.400413393974304
+        ],
+        "peakRSSMiB": 773.765625,
+        "gaps": [],
+        "microphoneCER": 0,
+        "promptTokenCounts": [
+          0
+        ]
+      },
+      "balanced-hints": {
+        "wordErrorRate": 0.07407407407407407,
+        "criticalPhrases": 4,
+        "missingCriticalPhrases": [
+          "irreversible muscle injury"
+        ],
+        "text": "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+        "firstPartialSeconds": 3.5284650325775146,
+        "finalDelays": [
+          7.292319893836975,
+          8.347166180610657,
+          12.795122981071472
+        ],
+        "peakRSSMiB": 785.734375,
+        "gaps": [],
+        "microphoneCER": 0.13559322033898305,
+        "promptTokenCounts": [
+          25,
+          26
+        ]
+      }
+    }
+  ],
+  "reportSHA256": {
+    "baseline/timepoint.json": "33e7182943b9f53bf62f31187332af81f5dc0458d3c1af8eb8e9f7dfa41e0045",
+    "baseline/necrosis.json": "30b82acb48b2f1d9e3115bb86d9802fd48a2f8baaca54ef96a0d0f84210a1018",
+    "baseline/numbers-negation.json": "b1b621f329f2c18a45108166f6203e2b8c2ae148dfebb342aea8c5ff9704868f",
+    "baseline/reversible-control.json": "36a3744be8564e90affb5c5f5760b59cc6e26460384c8a05722a06942ffa8132",
+    "baseline/irreversible-control.json": "32b74177ddefb194b626c8794909afd0cacd1ba133841d8bd88f46cd311fc2df",
+    "baseline/necrosis-samantha.json": "0f2d134165edcb888d03f892b65fa8fe98eca525ec0279c57b89ea62fdb95a0c",
+    "baseline/dual-english-chinese.json": "004824628f72ce602cfea268fb69d2b585a2bf6644a419e8391465e3c001b669",
+    "balanced-hints/timepoint.json": "617680f76ae526268eb9151f05db64922b6ea2067c7597c05563e4df4ec4947e",
+    "balanced-hints/necrosis.json": "bbdc4ef29ddc66c6603353d5415e2744576cbb4552363ab4b67f31b2f93512fe",
+    "balanced-hints/numbers-negation.json": "015083c7cc6112ec585fc46bd724967c6719bef1025ed31d3b39cab5ae9402a8",
+    "balanced-hints/reversible-control.json": "9af7db351b9ed80aee425e229d4eff21379494b88b9f40c2a0f960f71a8d36ee",
+    "balanced-hints/irreversible-control.json": "17c368fb40d6e122a1f3d6fb93ab1200ff41a4621394d2264c9d524d94ee435a",
+    "balanced-hints/necrosis-samantha.json": "e8712b39a5c966386de65fc678c7f86d72dc2b48e25d4a89dbedb67987ae62bf",
+    "balanced-hints/dual-english-chinese.json": "d61bc68d839963f74187fa0584b7c604036c9ecb347b9796528445fe109ed68a"
+  },
+  "note": "Totals exclude duplicate English in the dual-track case. Voices and texts are not independent human holdout data. WER is literal; number spellings and units are not normalized."
+}

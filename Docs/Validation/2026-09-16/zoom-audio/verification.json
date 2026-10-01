@@ -1,0 +1,21 @@
+{
+  "scope": "Zoom built-in speaker test; no meeting, ASR or cloud service",
+  "reportSHA256": "c6ff20e2d04a064ca9b2e243b5d0cf0eecccf35829d21219adebb3dbcd694609",
+  "binarySHA256": "538c6ae18f3fcb2d6e54192a810c0d51447a82bcc29e31a2ab2a6a7e1210c9aa",
+  "receivedAudioSeconds": 30.179625,
+  "checksPassed": true,
+  "automatedTestsPassed": 76,
+  "sourceSHA256": {
+    "Sources/ResearchCopilot/AudioCaptureService.swift": "f853138b19885f1ea7a2926dbd2ad0e88e6707b53640a8d449764be16720f964",
+    "Sources/ResearchCopilot/AudioSourceProbe.swift": "594b2db8019fc9b65916c1064bc34c3cb04a07ad0fcdd8f03e417b4aff3e6330",
+    "Sources/ResearchCopilot/CaptureReadiness.swift": "3db24c283d1f53f1b7a3cb4308bc8ddc6d941d4c2c4dae9b58bc75579d840e52",
+    "Sources/ResearchCopilot/MeetingController.swift": "633c77b18b1533cff6db1e4a2cffe6c99ce85308a89c09c034b7909f9807d818",
+    "Sources/ResearchCopilot/ResearchCopilotApp.swift": "053d818aea2028d84800f77e8f393da6f56652266f7c5b6c732bcff1ad275828",
+    "Tests/ResearchCopilotTests/AudioCaptureTests.swift": "cc942418da93d6f7a162a68ed2996fbdd6a828bf93bb90c33fccf9e8046bf51d"
+  },
+  "limitations": [
+    "No real meeting or other-app exclusion test",
+    "No microphone capture test",
+    "No ASR quality or 90-minute soak test"
+  ]
+}

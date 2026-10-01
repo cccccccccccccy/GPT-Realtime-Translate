@@ -1,0 +1,19 @@
+.build/
+.swiftpm/
+build/
+.DS_Store
+*.xcuserstate
+.env
+.env.*
+!Templates/.env.example
+*.meeting
+*.secret
+
+
+# Local credentials and personal exports
+*.pem
+*.p12
+*.pfx
+*.key
+*.keychain
+*.keychain-db

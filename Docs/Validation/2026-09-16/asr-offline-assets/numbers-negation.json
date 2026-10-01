@@ -1,0 +1,67 @@
+{
+  "audioDuration" : 15.4165,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    3.252533435821533,
+    1.3600200414657593
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.4399995803833,
+      "id" : "81A30807-63FD-42B8-A4F0-29AC4B05262E",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 mm of mercury,",
+      "track" : "remote"
+    },
+    {
+      "end" : 15.119999885559082,
+      "id" : "FFDB61D9-4D38-440F-95A3-E6145C588A2B",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 3,
+      "start" : 11.059999942779541,
+      "text" : "not 13. We need histological validation before drawing a conclusion.",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 1.9575859308242798,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811249475.841341,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-local-tokenizer-v1",
+  "preparationSeconds" : 2.279201030731201,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 786137088,
+  "processingWallSeconds" : 16.48005497455597,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.058823529411764705,
+    "characterErrors" : 12,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 204,
+    "referenceWords" : 39,
+    "wordErrorRate" : 0.05128205128205128,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

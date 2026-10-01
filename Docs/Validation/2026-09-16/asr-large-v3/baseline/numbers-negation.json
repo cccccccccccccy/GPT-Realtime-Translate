@@ -1,0 +1,997 @@
+{
+  "audioDuration" : 15.4165,
+  "decodeTraces" : [
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 1,
+      "text" : "There were six animals",
+      "track" : "remote",
+      "windowEnd" : 1.2000000000000002,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.4,
+        0.99,
+        0.94,
+        0.99
+      ],
+      "words" : [
+        {
+          "end" : 0.019999999552965164,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.8799999952316284,
+          "start" : 0.5,
+          "text" : " animals"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 2,
+      "text" : "There were six animals in each group.",
+      "track" : "remote",
+      "windowEnd" : 2.4,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.7,
+        1,
+        0.89,
+        0.99,
+        1,
+        1,
+        0.97
+      ],
+      "words" : [
+        {
+          "end" : 0.019999999552965164,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.019999999552965164,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.8799999952316284,
+          "start" : 0.5,
+          "text" : " animals"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.8799999952316284,
+          "text" : " in"
+        },
+        {
+          "end" : 1.2999999523162842,
+          "start" : 1.159999966621399,
+          "text" : " each"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.2999999523162842,
+          "text" : " group."
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 3,
+      "text" : "There were six animals in each group. The assessment was performed",
+      "track" : "remote",
+      "windowEnd" : 3.6,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.67,
+        1,
+        0.91,
+        0.99,
+        0.99,
+        1,
+        0.98,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.05999999865889549,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.7799999713897705,
+          "start" : 0.5,
+          "text" : " animals"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.7799999713897705,
+          "text" : " in"
+        },
+        {
+          "end" : 1.2999999523162842,
+          "start" : 1.159999966621399,
+          "text" : " each"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.2999999523162842,
+          "text" : " group."
+        },
+        {
+          "end" : 2.180000066757202,
+          "start" : 2.0399999618530273,
+          "text" : " The"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.180000066757202,
+          "text" : " assessment"
+        },
+        {
+          "end" : 2.9800000190734863,
+          "start" : 2.4200000762939453,
+          "text" : " was"
+        },
+        {
+          "end" : 3.259999990463257,
+          "start" : 2.9800000190734863,
+          "text" : " performed"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 5,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes",
+      "track" : "remote",
+      "windowEnd" : 6,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.54,
+        1,
+        0.75,
+        0.99,
+        0.99,
+        1,
+        0.98,
+        1,
+        1,
+        1,
+        1,
+        0.98,
+        0.98,
+        0.93,
+        0.96,
+        0.98,
+        0.96
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.05999999865889549,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.7799999713897705,
+          "start" : 0.5,
+          "text" : " animals"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.7799999713897705,
+          "text" : " in"
+        },
+        {
+          "end" : 1.2999999523162842,
+          "start" : 1.159999966621399,
+          "text" : " each"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.2999999523162842,
+          "text" : " group."
+        },
+        {
+          "end" : 2.180000066757202,
+          "start" : 2.0399999618530273,
+          "text" : " The"
+        },
+        {
+          "end" : 2.4200000762939453,
+          "start" : 2.180000066757202,
+          "text" : " assessment"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.4200000762939453,
+          "text" : " was"
+        },
+        {
+          "end" : 3.259999990463257,
+          "start" : 2.9000000953674316,
+          "text" : " performed"
+        },
+        {
+          "end" : 3.619999885559082,
+          "start" : 3.259999990463257,
+          "text" : " at"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.619999885559082,
+          "text" : " 48"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 3.819999933242798,
+          "text" : " hours."
+        },
+        {
+          "end" : 5,
+          "start" : 4.900000095367432,
+          "text" : " These"
+        },
+        {
+          "end" : 5.260000228881836,
+          "start" : 5,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.860000133514404,
+          "start" : 5.260000228881836,
+          "text" : " changes"
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 7,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis.",
+      "track" : "remote",
+      "windowEnd" : 8.4,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.91,
+        1,
+        0.7,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.05999999865889549,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.7799999713897705,
+          "start" : 0.5,
+          "text" : " animals"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.7799999713897705,
+          "text" : " in"
+        },
+        {
+          "end" : 1.340000033378601,
+          "start" : 1.159999966621399,
+          "text" : " each"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.340000033378601,
+          "text" : " group."
+        },
+        {
+          "end" : 2.180000066757202,
+          "start" : 2.0299999713897705,
+          "text" : " The"
+        },
+        {
+          "end" : 2.440000057220459,
+          "start" : 2.180000066757202,
+          "text" : " assessment"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.440000057220459,
+          "text" : " was"
+        },
+        {
+          "end" : 3.259999990463257,
+          "start" : 2.9000000953674316,
+          "text" : " performed"
+        },
+        {
+          "end" : 3.619999885559082,
+          "start" : 3.259999990463257,
+          "text" : " at"
+        },
+        {
+          "end" : 4,
+          "start" : 3.619999885559082,
+          "text" : " 48"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 4,
+          "text" : " hours."
+        },
+        {
+          "end" : 5,
+          "start" : 4.900000095367432,
+          "text" : " These"
+        },
+        {
+          "end" : 5.380000114440918,
+          "start" : 5,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.860000133514404,
+          "start" : 5.380000114440918,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.099999904632568,
+          "start" : 5.860000133514404,
+          "text" : " do"
+        },
+        {
+          "end" : 6.320000171661377,
+          "start" : 6.099999904632568,
+          "text" : " not"
+        },
+        {
+          "end" : 6.579999923706055,
+          "start" : 6.320000171661377,
+          "text" : " prove"
+        },
+        {
+          "end" : 7.28000020980835,
+          "start" : 6.579999923706055,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 7.920000076293945,
+          "start" : 7.28000020980835,
+          "text" : " necrosis."
+        }
+      ]
+    },
+    {
+      "isFinal" : false,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 9,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 millimeters of mercury.",
+      "track" : "remote",
+      "windowEnd" : 10.799999999999999,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.9,
+        1,
+        0.68,
+        1,
+        1,
+        1,
+        0.98,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.67,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.05999999865889549,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.7799999713897705,
+          "start" : 0.5,
+          "text" : " animals"
+        },
+        {
+          "end" : 1.1799999475479126,
+          "start" : 0.7799999713897705,
+          "text" : " in"
+        },
+        {
+          "end" : 1.340000033378601,
+          "start" : 1.1799999475479126,
+          "text" : " each"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.340000033378601,
+          "text" : " group."
+        },
+        {
+          "end" : 2.180000066757202,
+          "start" : 2.0399999618530273,
+          "text" : " The"
+        },
+        {
+          "end" : 2.440000057220459,
+          "start" : 2.180000066757202,
+          "text" : " assessment"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.440000057220459,
+          "text" : " was"
+        },
+        {
+          "end" : 3.259999990463257,
+          "start" : 2.9000000953674316,
+          "text" : " performed"
+        },
+        {
+          "end" : 3.619999885559082,
+          "start" : 3.259999990463257,
+          "text" : " at"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.619999885559082,
+          "text" : " 48"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 3.819999933242798,
+          "text" : " hours."
+        },
+        {
+          "end" : 4.960000038146973,
+          "start" : 4.760000228881836,
+          "text" : " These"
+        },
+        {
+          "end" : 5.260000228881836,
+          "start" : 4.960000038146973,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.760000228881836,
+          "start" : 5.260000228881836,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.119999885559082,
+          "start" : 5.760000228881836,
+          "text" : " do"
+        },
+        {
+          "end" : 6.320000171661377,
+          "start" : 6.119999885559082,
+          "text" : " not"
+        },
+        {
+          "end" : 6.579999923706055,
+          "start" : 6.320000171661377,
+          "text" : " prove"
+        },
+        {
+          "end" : 7.28000020980835,
+          "start" : 6.579999923706055,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 7.920000076293945,
+          "start" : 7.28000020980835,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 8.520000457763672,
+          "start" : 8.34000015258789,
+          "text" : " The"
+        },
+        {
+          "end" : 8.84000015258789,
+          "start" : 8.520000457763672,
+          "text" : " pressure"
+        },
+        {
+          "end" : 9.100000381469727,
+          "start" : 8.84000015258789,
+          "text" : " was"
+        },
+        {
+          "end" : 9.380000114440918,
+          "start" : 9.100000381469727,
+          "text" : " 30"
+        },
+        {
+          "end" : 9.65999984741211,
+          "start" : 9.380000114440918,
+          "text" : " millimeters"
+        },
+        {
+          "end" : 10.140000343322754,
+          "start" : 9.65999984741211,
+          "text" : " of"
+        },
+        {
+          "end" : 10.4399995803833,
+          "start" : 10.140000343322754,
+          "text" : " mercury."
+        }
+      ]
+    },
+    {
+      "commitEnd" : 11,
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 10,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 millimeters of mercury, not 13.",
+      "track" : "remote",
+      "windowEnd" : 12,
+      "windowID" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "windowStart" : 0,
+      "wordScores" : [
+        0.88,
+        1,
+        0.64,
+        1,
+        1,
+        1,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.53,
+        1,
+        1,
+        0.96,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.05999999865889549,
+          "start" : 0.019999999552965164,
+          "text" : " There"
+        },
+        {
+          "end" : 0.20000000298023224,
+          "start" : 0.05999999865889549,
+          "text" : " were"
+        },
+        {
+          "end" : 0.5,
+          "start" : 0.20000000298023224,
+          "text" : " six"
+        },
+        {
+          "end" : 0.7799999713897705,
+          "start" : 0.5,
+          "text" : " animals"
+        },
+        {
+          "end" : 1.159999966621399,
+          "start" : 0.7799999713897705,
+          "text" : " in"
+        },
+        {
+          "end" : 1.340000033378601,
+          "start" : 1.159999966621399,
+          "text" : " each"
+        },
+        {
+          "end" : 1.7200000286102295,
+          "start" : 1.340000033378601,
+          "text" : " group."
+        },
+        {
+          "end" : 2.180000066757202,
+          "start" : 2.0399999618530273,
+          "text" : " The"
+        },
+        {
+          "end" : 2.440000057220459,
+          "start" : 2.180000066757202,
+          "text" : " assessment"
+        },
+        {
+          "end" : 2.9000000953674316,
+          "start" : 2.440000057220459,
+          "text" : " was"
+        },
+        {
+          "end" : 3.259999990463257,
+          "start" : 2.9000000953674316,
+          "text" : " performed"
+        },
+        {
+          "end" : 3.619999885559082,
+          "start" : 3.259999990463257,
+          "text" : " at"
+        },
+        {
+          "end" : 3.819999933242798,
+          "start" : 3.619999885559082,
+          "text" : " 48"
+        },
+        {
+          "end" : 4.360000133514404,
+          "start" : 3.819999933242798,
+          "text" : " hours."
+        },
+        {
+          "end" : 4.960000038146973,
+          "start" : 4.760000228881836,
+          "text" : " These"
+        },
+        {
+          "end" : 5.260000228881836,
+          "start" : 4.960000038146973,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.860000133514404,
+          "start" : 5.260000228881836,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.099999904632568,
+          "start" : 5.860000133514404,
+          "text" : " do"
+        },
+        {
+          "end" : 6.360000133514404,
+          "start" : 6.099999904632568,
+          "text" : " not"
+        },
+        {
+          "end" : 6.579999923706055,
+          "start" : 6.360000133514404,
+          "text" : " prove"
+        },
+        {
+          "end" : 7.28000020980835,
+          "start" : 6.579999923706055,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 7.920000076293945,
+          "start" : 7.28000020980835,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 8.520000457763672,
+          "start" : 8.34000015258789,
+          "text" : " The"
+        },
+        {
+          "end" : 8.84000015258789,
+          "start" : 8.520000457763672,
+          "text" : " pressure"
+        },
+        {
+          "end" : 9.100000381469727,
+          "start" : 8.84000015258789,
+          "text" : " was"
+        },
+        {
+          "end" : 9.380000114440918,
+          "start" : 9.100000381469727,
+          "text" : " 30"
+        },
+        {
+          "end" : 9.65999984741211,
+          "start" : 9.380000114440918,
+          "text" : " millimeters"
+        },
+        {
+          "end" : 10.140000343322754,
+          "start" : 9.65999984741211,
+          "text" : " of"
+        },
+        {
+          "end" : 10.4399995803833,
+          "start" : 10.140000343322754,
+          "text" : " mercury,"
+        },
+        {
+          "end" : 11.0600004196167,
+          "start" : 10.720000267028809,
+          "text" : " not"
+        },
+        {
+          "end" : 11.460000038146973,
+          "start" : 11.0600004196167,
+          "text" : " 13."
+        }
+      ]
+    },
+    {
+      "isFinal" : true,
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "revision" : 3,
+      "text" : "of mercury, not 13. We need histological validation before drawing a conclusion.",
+      "track" : "remote",
+      "windowEnd" : 15.416500000000001,
+      "windowID" : "8773754E-B228-4C07-B19B-3533B073B3E0",
+      "windowStart" : 10,
+      "wordScores" : [
+        0.96,
+        0.63,
+        0.88,
+        0.96,
+        0.93,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " of"
+        },
+        {
+          "end" : 0.4399999976158142,
+          "start" : 0.03999999910593033,
+          "text" : " mercury,"
+        },
+        {
+          "end" : 1.1399999856948853,
+          "start" : 0.7200000286102295,
+          "text" : " not"
+        },
+        {
+          "end" : 1.4600000381469727,
+          "start" : 1.1399999856948853,
+          "text" : " 13."
+        },
+        {
+          "end" : 2.119999885559082,
+          "start" : 1.7999999523162842,
+          "text" : " We"
+        },
+        {
+          "end" : 2.3399999141693115,
+          "start" : 2.119999885559082,
+          "text" : " need"
+        },
+        {
+          "end" : 2.759999990463257,
+          "start" : 2.3399999141693115,
+          "text" : " histological"
+        },
+        {
+          "end" : 3.359999895095825,
+          "start" : 2.759999990463257,
+          "text" : " validation"
+        },
+        {
+          "end" : 4.019999980926514,
+          "start" : 3.359999895095825,
+          "text" : " before"
+        },
+        {
+          "end" : 4.300000190734863,
+          "start" : 4.019999980926514,
+          "text" : " drawing"
+        },
+        {
+          "end" : 4.599999904632568,
+          "start" : 4.300000190734863,
+          "text" : " a"
+        },
+        {
+          "end" : 4.860000133514404,
+          "start" : 4.599999904632568,
+          "text" : " conclusion."
+        }
+      ]
+    }
+  ],
+  "finalDelays" : [
+    8.893928408622742,
+    6.493079900741577
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.4399995803833,
+      "id" : "8987C8B5-EC78-42FA-AA6F-8047391B184C",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0.019999999552965164,
+      "text" : "There were six animals in each group. The assessment was performed at 48 hours. These imaging changes do not prove irreversible necrosis. The pressure was 30 millimeters of mercury,",
+      "track" : "remote"
+    },
+    {
+      "end" : 14.860000133514404,
+      "id" : "8773754E-B228-4C07-B19B-3533B073B3E0",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 3,
+      "start" : 10.72000002861023,
+      "text" : "not 13. We need histological validation before drawing a conclusion.",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 2.738149046897888,
+  "fixtureSHA256" : {
+    "audio" : "a8a01b9d60653bc538d93529089122d2d59b5c05349f38f6574708146dde581f",
+    "critical-terms" : "6a17ee45d1be39a3c4ae5a5c5e2202000fb4f4272871674915b2503f8691df4c",
+    "reference" : "a170dcdf58eb6600871b591de1d80271419b04194db166245c4ef3900b025017"
+  },
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811258193.584444,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3_947MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-untimed-word-groups-v3",
+  "preparationSeconds" : 2.570472002029419,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/ResourceIntegrity\/7f3e3f3804bd9505a06b4c95d54ea2eb66cee7e1f75ebeafa97bce08bd66e945.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3_947MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-large-v3\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 1054801920,
+  "processingWallSeconds" : 21.353111028671265,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.014705882352941176,
+    "characterErrors" : 3,
+    "checkedCriticalTerms" : [
+      "48 hours",
+      "do not prove irreversible necrosis",
+      "30",
+      "not 13",
+      "histological validation"
+    ],
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 204,
+    "referenceWords" : 39,
+    "wordErrorRate" : 0.02564102564102564,
+    "wordErrors" : 1
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "audioDuration" : 11.160375,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    1.175714373588562
+  ],
+  "finalSegments" : [
+    {
+      "end" : 10.899999618530273,
+      "id" : "A6493EAE-57FA-4D1C-A874-94E8ABFD90D7",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 10,
+      "start" : 0,
+      "text" : "I'm not entirely convinced that the imaging changes you're seeing necessarily represent a reversible muscle injury. How are you going to distinguish reversible ischemic changes from actual necrosis?",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 1.3728550672531128,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811250229.165733,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-small",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-local-tokenizer-v1",
+  "preparationSeconds" : 1.1220329999923706,
+  "preparedResources" : {
+    "embeddingSize" : 768,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/ResourceIntegrity\/761096f34467b5cec64bc22ca7ded4cf200fd203127f76e2e6c03eed7ed42462.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-small",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models-small\/models\/openai\/whisper-small",
+    "vocabularySize" : 51865
+  },
+  "processPeakResidentBytes" : 622690304,
+  "processingWallSeconds" : 12.075751066207886,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0.011904761904761904,
+    "characterErrors" : 2,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 168,
+    "referenceWords" : 27,
+    "wordErrorRate" : 0.07407407407407407,
+    "wordErrors" : 2
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

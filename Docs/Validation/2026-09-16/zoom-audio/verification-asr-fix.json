@@ -1,0 +1,36 @@
+{
+  "scope": "Updated app; Zoom built-in speaker test; microphone, ASR and cloud text off",
+  "reportSHA256": "2c9c613377720866e34e6743b7bb8e487bec8ab6960c6897ea6d4cc319dd87da",
+  "binarySHA256": "eca5f2016ee8ef5068f600271e706ae55b4f0a68eb7a09c7570f2e1c7a2a7af0",
+  "receivedAudioSeconds": 30.259625,
+  "checksPassed": true,
+  "automatedTestsPassed": 80,
+  "sourceSHA256": {
+    "Sources/CopilotCore/AudioPipeline.swift": "8b3db005e34817d5fcc42c728fdf15eb8217e243c9b601cafd094e3c3cce17ee",
+    "Sources/CopilotCore/Meeting.swift": "b6edf03b3cc30ff08c9d2e12ed05f3a0c3d110d1b0351ccb8ddde33025492542",
+    "Sources/CopilotCore/RecognitionMetrics.swift": "3adbb7773cf12803a840b0facbb91267c11f19c56ba41ee30746d39d0e35445e",
+    "Sources/CopilotSpeech/WhisperKitProvider.swift": "fe79f7d945ccb8694c13ad52cfdec50218fe72f9dce186ec773b2e8fccae8d62",
+    "Sources/CopilotDiagnostics/main.swift": "c3fe3ce51c11aa34cfe3706a847fcccd6f317ca94578a75cb958953ddc9d52e6",
+    "Sources/ResearchCopilot/ResearchCopilotApp.swift": "5df6081d5b870bd1cfcb2041c8cfbe13ed081e8576eba98ca9e217bc1923161e"
+  },
+  "nativeUI": {
+    "capturePermissionAllowed": true,
+    "selectedSource": "Zoom",
+    "microphoneEnabled": false,
+    "cloudTextEnabled": false,
+    "speechModelPreparedInApp": false,
+    "speakerTestStoppedVerified": true
+  },
+  "limitations": [
+    "Built-in speaker tone only",
+    "No other-app exclusion or microphone capture test",
+    "No language or 90-minute real meeting acceptance"
+  ],
+  "postTestUI": {
+    "defaultModelReady": true,
+    "defaultModel": "large-v3-v20240930_626MB",
+    "recording": false,
+    "cloudTextEnabled": false,
+    "microphoneEnabled": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "createdAt": "2026-09-16T22:29:14.565469+08:00",
+  "scope": "Handoff snapshot only. No live meeting integration or cloud API request was executed in this handoff turn. Historical development evidence; hashes describe the original snapshot, not the sanitized public source.",
+  "tests": {
+    "offlineCompleted": 88,
+    "liveSkipped": 1,
+    "latestDiagnosticSourceCompiledWithLiveTestSkipped": true
+  },
+  "liveIntegrationStatus": "Execution was rejected before process creation; awaiting explicit authorization, then deferred by user request for Kimi3 handoff.",
+  "sha256": {
+    "Zoom国际科研会议AI副驾——Codex实施计划.md": "b46c3d439f19a5b2f84f7ce8235f3c5dfe77b06d779d94d4100f9d6eed531c7d",
+    "Zoom国际科研会议AI副驾——Codex实施计划_v3.md": "d1c3c0881c6ccc15e10e5f5270c5561a7a650897a4964e3ba214ae4b477edf46",
+    "Zoom国际科研会议AI副驾——Codex实施计划_v4_多模型API版.md": "4ccd5abb5063d44406e83d41efb2cd415acf079f0565c24949cedf74e29a3836",
+    "Package.resolved": "5d4eebbdf11b7c06a5f17c9cbea0d679d6061cdd0e0db82b430bceb4f94a8864",
+    "build/ResearchCopilot.app/Contents/MacOS/ResearchCopilot": "70c03209a996b49d9aa67842ccdbb41852c1ddf0bdc16e305b0e1776d7ad9184",
+    "Tests/ResearchCopilotTests/LiveMeetingDiagnosticsTests.swift": "5e7f5a07239c1d9f7c8a7b8efa016af27fcd94bbe2dc196f73ab9e0a85936fe1",
+    "Sources/ResearchCopilot/MeetingController.swift": "c8b62b181fd41838b1cef50e0d457378d461f019b5486114cec89bcad5024315",
+    "Sources/ResearchCopilot/AudioCaptureService.swift": "d814c293616c0e72cd9770a16b4fa7d2f19df43524fe9380be44319b93e5921e",
+    "Sources/ResearchCopilot/CaptureEnvironmentMonitor.swift": "5b2ba4fe352bea5cbd93094ed05fce2ce344b605ec8f056b0b52bc2ab2be3e1e",
+    "Sources/ResearchCopilot/SpeechSessionStarter.swift": "190c742e240fec7ed4222ef067859736c03558664001936e5c2d3c27efb6c8e8",
+    "Sources/CopilotCore/AudioPipeline.swift": "8b3db005e34817d5fcc42c728fdf15eb8217e243c9b601cafd094e3c3cce17ee",
+    "Sources/CopilotSpeech/WhisperKitProvider.swift": "fe79f7d945ccb8694c13ad52cfdec50218fe72f9dce186ec773b2e8fccae8d62",
+    ".build/fixtures/timepoint.aiff": "5a13a2492ab060f82409ef830db812558dc22b37f5ad65a18229744871161e66",
+    ".build/fixtures/necrosis.aiff": "6c43cb65321316f1463afae6f428c0db3e6c0a79c1fa4e8c5b27590d8921c470",
+    "Docs/Validation/2026-09-16/handoff-snapshot/offline-tests.log": "64c9a29ce9c376ce50daf70bbb790e584a87ec6a6fb919712c84cbef8b84bef2",
+    "Docs/Validation/2026-09-16/handoff-snapshot/opt-in-skip.log": "b9f450bf68dc2a572fde4523dcde96f247a31e969734b7c26726fccd3ad77615",
+    "Docs/MEETING_INTEGRATION_2026-09-16.md": "e728ccac1fe31d72838b48d449bc54e1f007a17afe0f7249ea432a0a2d25ccad",
+    "Docs/IMPLEMENTATION_STATUS.md": "a0149111750d655ac601dc3f6a39ed4ee2da01ec5e0d40c66b4b35ce8e077768",
+    "README.md": "dc0ec8c91670eecc5fa0219059727c7fc6a9d11b35bd71f19cb00df6dc612a5e"
+  },
+  "handoffChecks": {
+    "localLinksExist": true,
+    "codeFencesBalanced": true,
+    "previousArtifactHashesUnchanged": true
+  }
+}

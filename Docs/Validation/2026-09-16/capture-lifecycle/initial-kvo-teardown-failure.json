@@ -1,0 +1,108 @@
+{
+  "scope": "Sanitized development failure; no raw crash metadata or memory addresses retained",
+  "sourceFileSHA256": "a1f0b016c5fc2dbab98714044a8108151ed8f702dec726d566ab6feaac1f5e62",
+  "failedBinarySHA256": "83afb08e8b7d6bb2232f1965d938c9fcdd2babac3fb180742ac625834745f837",
+  "exceptionType": "EXC_BAD_ACCESS",
+  "signal": "SIGSEGV",
+  "queue": "com.apple.main-thread",
+  "frames": [
+    {
+      "symbol": "objc_msgSend"
+    },
+    {
+      "symbol": "-[NSRunningApplication removeObserver:forKeyPath:]"
+    },
+    {
+      "symbol": "-[NSObject(NSKeyValueObserverRegistration) removeObserver:forKeyPath:context:]"
+    },
+    {
+      "symbol": "closure #1 in NSKeyValueObservation.Helper.invalidate()"
+    },
+    {
+      "symbol": "NSKeyValueObservation.Helper.invalidate()"
+    },
+    {
+      "symbol": "@objc NSKeyValueObservation.Helper.__deallocating_deinit"
+    },
+    {
+      "symbol": "_object_remove_associations"
+    },
+    {
+      "symbol": "objc_destructInstance_nonnull_realized(objc_object*)"
+    },
+    {
+      "symbol": "_objc_rootDealloc"
+    },
+    {
+      "symbol": "-[NSRunningApplication dealloc]"
+    },
+    {
+      "symbol": "_NSKVOPerformWithDeallocatingObservable"
+    },
+    {
+      "symbol": "NSKVODeallocate"
+    },
+    {
+      "symbol": "outlined destroy of NSRunningApplication?",
+      "sourceFile": "/<compiler-generated>"
+    },
+    {
+      "symbol": "CaptureEnvironmentMonitor.deinit",
+      "sourceFile": "CaptureEnvironmentMonitor.swift"
+    },
+    {
+      "symbol": "CaptureEnvironmentMonitor.__deallocating_deinit",
+      "sourceFile": "CaptureEnvironmentMonitor.swift"
+    },
+    {
+      "symbol": "_swift_release_dealloc"
+    },
+    {
+      "symbol": "bool swift::RefCounts<swift::RefCountBitsT<(swift::RefCountInlinedness)1>>::doDecrementSlow<(swift::PerformDeinit)1>(swift::RefCountBitsT<(swift::RefCountInlinedness)1>, unsigned int)"
+    },
+    {
+      "symbol": "AudioCaptureService.stopForwarding()",
+      "sourceFile": "AudioCaptureService.swift",
+      "sourceLine": 120
+    },
+    {
+      "symbol": "AudioCaptureService.stop()",
+      "sourceFile": "AudioCaptureService.swift",
+      "sourceLine": 104
+    },
+    {
+      "symbol": "protocol witness for AudioCapturing.stop() in conformance AudioCaptureService",
+      "sourceFile": "/<compiler-generated>"
+    },
+    {
+      "symbol": "MeetingController.stopCapture()",
+      "sourceFile": "MeetingController.swift",
+      "sourceLine": 240
+    },
+    {
+      "symbol": "MeetingController.stopAudioTest()",
+      "sourceFile": "MeetingController.swift",
+      "sourceLine": 233
+    },
+    {
+      "symbol": "closure #4 in MeetingController.startAudioTest()",
+      "sourceFile": "MeetingController.swift",
+      "sourceLine": 213
+    },
+    {
+      "symbol": "partial apply for closure #4 in MeetingController.startAudioTest()",
+      "sourceFile": "/<compiler-generated>"
+    },
+    {
+      "symbol": "thunk for @escaping @isolated(any) @callee_guaranteed @async () -> (@out A)",
+      "sourceFile": "/<compiler-generated>"
+    },
+    {
+      "symbol": "partial apply for thunk for @escaping @isolated(any) @callee_guaranteed @async () -> (@out A)",
+      "sourceFile": "/<compiler-generated>"
+    },
+    {
+      "symbol": "completeTaskWithClosure(swift::AsyncContext*, swift::SwiftError*)"
+    }
+  ]
+}

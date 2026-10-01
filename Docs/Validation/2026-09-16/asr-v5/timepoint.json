@@ -1,0 +1,49 @@
+{
+  "audioDuration" : 5.4823125,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    1.5654902458190918
+  ],
+  "finalSegments" : [
+    {
+      "end" : 5.239999771118164,
+      "id" : "0488F6C6-9695-44A0-852E-88E9B5205D9D",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 5,
+      "start" : 0.019999999552965164,
+      "text" : "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 2.065006971359253,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811248183.247751,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-overlap-v4-language-detection",
+  "preparationSeconds" : 55.523244976997375,
+  "processPeakResidentBytes" : 797343744,
+  "processingWallSeconds" : 6.805531978607178,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 84,
+    "referenceWords" : 18,
+    "wordErrorRate" : 0,
+    "wordErrors" : 0
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

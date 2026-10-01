@@ -1,0 +1,31 @@
+{
+  "scope": "Seven unprompted synthetic ASR comparisons; networking denied to diagnostic subprocess",
+  "command": "/usr/bin/sandbox-exec -p '(version 1) (allow default) (deny network*)' /bin/bash Scripts/run-asr-critical-comparison.sh .build/models-large-v3 .build/benchmarks-critical-large-v3 baseline",
+  "prepareSecondsIncludingDownload": 842.71,
+  "modelRepository": "argmaxinc/whisperkit-coreml",
+  "modelRevision": "0f63a7800b00dd0226abd051b906c246e1907482",
+  "model": "openai_whisper-large-v3_947MB",
+  "encoderLayers": 32,
+  "decoderLayers": 32,
+  "decision": "Keep application default unchanged: critical phrase failures persist and observed dual-track delay is higher",
+  "sourceSHA256": {
+    "Scripts/run-asr-critical-comparison.sh": "09bb0e8b826af9aeafdc648caffc479ff7f8b891cdb61a3f505216109a25c446",
+    "Scripts/compare-asr-models.py": "4d95c98df3fdeda7f7fde425d3b49ca52a355fde9f1221749122e1c82e9b936c",
+    "Sources/CopilotDiagnostics/main.swift": "c3fe3ce51c11aa34cfe3706a847fcccd6f317ca94578a75cb958953ddc9d52e6",
+    "Sources/CopilotSpeech/WhisperKitProvider.swift": "fe79f7d945ccb8694c13ad52cfdec50218fe72f9dce186ec773b2e8fccae8d62",
+    "Sources/CopilotCore/AudioPipeline.swift": "8b3db005e34817d5fcc42c728fdf15eb8217e243c9b601cafd094e3c3cce17ee"
+  },
+  "artifactSHA256": {
+    "baseline/dual-english-chinese.json": "d6df3ec9cfab605d1a86cd2ce00226d02f8111dba441ca9e63b896496f28b89c",
+    "baseline/irreversible-control.json": "1d4e6eec26491ffaa5ed883e96ad557190b3fa028a59db1086aa7bd8a8535ed5",
+    "baseline/necrosis-samantha.json": "313c3dfcedea5d11cd74708529fad0787c92ae4a04fb41a846b690f7bb8ce09c",
+    "baseline/necrosis.json": "886dc9f7441d97ce343ef8cfdaf7e261050e7959c1087eb86c91887413a89714",
+    "baseline/numbers-negation.json": "f69a24561218a2072151e206bd8c6fa24cc965c7f0a1aefe0a83f7abdf7f96c2",
+    "baseline/reversible-control.json": "e397a5e37999eecd55d52ceb834395d9d1f1cd2ab0d89ee434bd88ac2fddfe93",
+    "baseline/timepoint.json": "940bbb1de92df5ceaad146d642262fdf0a74f25d13114b07220a6c074f7da9cf",
+    "integrity-record.json": "74a952aa21833a0b4ba4e98b96a531c5cb1f14298f6e53ca081c333f21f1f77b",
+    "model-comparison.json": "f02f1c49005fd9e6492cbd9574879b5cbcccbaff5339ef9e6e05094a2a4fb371",
+    "model-config.json": "798b69c08cf93b2b03d94bea6eb3eb25fd4712259712d8a62ed2483fdf818a9e",
+    "prepared-assets.json": "55b13dd0beebdb93b9b7cacd85fe62aebb94401eabe93f09a04c6394036ac81d"
+  }
+}

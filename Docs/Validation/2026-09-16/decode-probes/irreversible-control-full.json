@@ -1,0 +1,168 @@
+{
+  "clipEndSeconds" : 10.913875,
+  "clipStartSeconds" : 0,
+  "fixtureSHA256" : {
+    "audio" : "ee0eb3afc65eca8049bbb48307f4458d297a06621ee2ca67af5c4da5be8652fb"
+  },
+  "language" : "en",
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "One-shot decode outside the streaming pipeline; diagnostic probe only. Prompt conditions are not evaluation inputs and cannot be used to claim recognition quality. Word scores are decoder-derived and not calibrated correctness probabilities.",
+  "preparationSeconds" : 2.170388102531433,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "runs" : [
+    {
+      "language" : "en",
+      "promptTokenCount" : 0,
+      "text" : "The tissue shows irreversible muscle injury, not reversible ischemia. However, these imaging changes alone do not establish necrosis. Histological validation is still required.",
+      "wordScores" : [
+        0.46,
+        0.99,
+        1,
+        1,
+        1,
+        1,
+        0.91,
+        1,
+        0.98,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "words" : [
+        {
+          "end" : 0.03999999910593033,
+          "start" : 0.019999999552965164,
+          "text" : " The"
+        },
+        {
+          "end" : 0.3199999928474426,
+          "start" : 0.03999999910593033,
+          "text" : " tissue"
+        },
+        {
+          "end" : 0.7599999904632568,
+          "start" : 0.3199999928474426,
+          "text" : " shows"
+        },
+        {
+          "end" : 1.440000057220459,
+          "start" : 0.7599999904632568,
+          "text" : " irreversible"
+        },
+        {
+          "end" : 1.7400000095367432,
+          "start" : 1.440000057220459,
+          "text" : " muscle"
+        },
+        {
+          "end" : 2.1600000858306885,
+          "start" : 1.7400000095367432,
+          "text" : " injury,"
+        },
+        {
+          "end" : 2.759999990463257,
+          "start" : 2.5999999046325684,
+          "text" : " not"
+        },
+        {
+          "end" : 3.240000009536743,
+          "start" : 2.759999990463257,
+          "text" : " reversible"
+        },
+        {
+          "end" : 3.7799999713897705,
+          "start" : 3.240000009536743,
+          "text" : " ischemia."
+        },
+        {
+          "end" : 4.5,
+          "start" : 4.28000020980835,
+          "text" : " However,"
+        },
+        {
+          "end" : 5.079999923706055,
+          "start" : 4.760000228881836,
+          "text" : " these"
+        },
+        {
+          "end" : 5.420000076293945,
+          "start" : 5.079999923706055,
+          "text" : " imaging"
+        },
+        {
+          "end" : 5.880000114440918,
+          "start" : 5.420000076293945,
+          "text" : " changes"
+        },
+        {
+          "end" : 6.159999847412109,
+          "start" : 5.880000114440918,
+          "text" : " alone"
+        },
+        {
+          "end" : 6.440000057220459,
+          "start" : 6.159999847412109,
+          "text" : " do"
+        },
+        {
+          "end" : 6.639999866485596,
+          "start" : 6.440000057220459,
+          "text" : " not"
+        },
+        {
+          "end" : 7.21999979019165,
+          "start" : 6.639999866485596,
+          "text" : " establish"
+        },
+        {
+          "end" : 7.980000019073486,
+          "start" : 7.21999979019165,
+          "text" : " necrosis."
+        },
+        {
+          "end" : 8.960000038146973,
+          "start" : 8.420000076293945,
+          "text" : " Histological"
+        },
+        {
+          "end" : 9.420000076293945,
+          "start" : 8.960000038146973,
+          "text" : " validation"
+        },
+        {
+          "end" : 9.859999656677246,
+          "start" : 9.420000076293945,
+          "text" : " is"
+        },
+        {
+          "end" : 10.0600004196167,
+          "start" : 9.859999656677246,
+          "text" : " still"
+        },
+        {
+          "end" : 10.619999885559082,
+          "start" : 10.0600004196167,
+          "text" : " required."
+        }
+      ]
+    }
+  ],
+  "wordTimestamps" : true
+}

@@ -1,0 +1,56 @@
+{
+  "audioDuration" : 5.4823125,
+  "decodeTraces" : [
+
+  ],
+  "finalDelays" : [
+    1.508317232131958
+  ],
+  "finalSegments" : [
+    {
+      "end" : 5.239999771118164,
+      "id" : "0D8FF70C-6BD2-43B4-9191-6B07C732C835",
+      "isFinal" : true,
+      "manuallyCorrected" : false,
+      "revision" : 5,
+      "start" : 0.019999999552965164,
+      "text" : "What is the rationale for selecting this time point, and how do you plan to validate it histologically?",
+      "track" : "remote"
+    }
+  ],
+  "firstPartialSeconds" : 2.0163689851760864,
+  "gaps" : [
+
+  ],
+  "generatedAt" : 811249441.384913,
+  "glossaryConditioning" : false,
+  "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+  "note" : "Synthetic or explicitly supplied diagnostic fixture; not medical meeting quality or 90-minute acceptance. Peak RSS includes model preparation, excludes other processes, and is not total GPU\/ANE memory.",
+  "operatingSystem" : "Version 26.5.2 (Build 25F84)",
+  "pipelineVersion" : "whisperkit-1.1.0-local-tokenizer-v1",
+  "preparationSeconds" : 54.64904499053955,
+  "preparedResources" : {
+    "embeddingSize" : 1280,
+    "integrityRecord" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/ResourceIntegrity\/4d4dd0dafa64ef92f71cddd79ecce3b8a9cc116e0b111ca2fbb15da318382088.json",
+    "modelFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/argmaxinc\/whisperkit-coreml\/openai_whisper-large-v3-v20240930_626MB",
+    "tokenizerFolder" : "\/Users\/cc\/Documents\/codex\/GPT-Realtime-Translate\/.build\/models\/models\/openai\/whisper-large-v3",
+    "vocabularySize" : 51866
+  },
+  "processPeakResidentBytes" : 892108800,
+  "processingWallSeconds" : 6.748352885246277,
+  "realtimeInput" : true,
+  "remoteMetrics" : {
+    "characterErrorRate" : 0,
+    "characterErrors" : 0,
+    "missingCriticalTerms" : [
+
+    ],
+    "referenceCharacters" : 84,
+    "referenceWords" : 18,
+    "wordErrorRate" : 0,
+    "wordErrors" : 0
+  },
+  "tracks" : [
+    "remote"
+  ]
+}

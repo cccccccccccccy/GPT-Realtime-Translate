@@ -1,0 +1,17 @@
+{
+  "applicationBundleID" : "us.zoom.xos",
+  "applicationID" : 92640,
+  "currentRMS" : 0,
+  "endedAt" : "2026-09-16T14:06:03Z",
+  "issues" : [
+    "所选 Zoom 已退出，音频捕获中断。重新打开 Zoom 后请刷新音源并手动开始。"
+  ],
+  "microphoneFrames" : 0,
+  "nonSilentFrames" : 0,
+  "peakRMS" : 0,
+  "remoteFrames" : 435,
+  "remoteSamples" : 139194,
+  "sampleRate" : 16000,
+  "startedAt" : "2026-09-16T14:05:54Z",
+  "stopConfirmed" : true
+}
